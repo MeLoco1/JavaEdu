@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f18f137c-6b62-4f2b-8a26-fc32f9be9358" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/HW1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../HomeWork/HW1/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lesson1/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Lesson2.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="f18f137c-6b62-4f2b-8a26-fc32f9be9358" time="1372714284018" ignored="false" />
     <file path="/fragment.java" changelist="f18f137c-6b62-4f2b-8a26-fc32f9be9358" time="1372583211830" ignored="false" />
-    <file path="/Dummy.txt" changelist="f18f137c-6b62-4f2b-8a26-fc32f9be9358" time="1372714628553" ignored="false" />
+    <file path="/Dummy.txt" changelist="f18f137c-6b62-4f2b-8a26-fc32f9be9358" time="1372714640734" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +82,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="46" selection-start="3191" selection-end="3191" vertical-scroll-proportion="0.92">
+            <state line="61" column="24" selection-start="2473" selection-end="2473" vertical-scroll-proportion="0.16">
               <folding />
             </state>
           </provider>
@@ -297,7 +299,11 @@
       <created>1372714634445</created>
       <updated>1372714634445</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lesson2">
+      <created>1372714644993</created>
+      <updated>1372714644993</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -448,7 +454,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="46" selection-start="3191" selection-end="3191" vertical-scroll-proportion="0.92">
+        <state line="61" column="24" selection-start="2473" selection-end="2473" vertical-scroll-proportion="0.16">
           <folding />
         </state>
       </provider>
