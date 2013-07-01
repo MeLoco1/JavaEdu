@@ -10,7 +10,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="f18f137c-6b62-4f2b-8a26-fc32f9be9358" time="1372714284018" ignored="false" />
     <file path="/fragment.java" changelist="f18f137c-6b62-4f2b-8a26-fc32f9be9358" time="1372583211830" ignored="false" />
-    <file path="/Dummy.txt" changelist="f18f137c-6b62-4f2b-8a26-fc32f9be9358" time="1372714564223" ignored="false" />
+    <file path="/Dummy.txt" changelist="f18f137c-6b62-4f2b-8a26-fc32f9be9358" time="1372714599703" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="46" selection-start="2739" selection-end="2739" vertical-scroll-proportion="0.92">
+            <state line="80" column="46" selection-start="3191" selection-end="3191" vertical-scroll-proportion="0.92">
               <folding />
             </state>
           </provider>
@@ -320,7 +320,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="742" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -446,7 +446,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="46" selection-start="2739" selection-end="2739" vertical-scroll-proportion="0.92">
+        <state line="80" column="46" selection-start="3191" selection-end="3191" vertical-scroll-proportion="0.92">
           <folding />
         </state>
       </provider>

@@ -9,7 +9,7 @@
     <ignored path="HW1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="1a148955-dc38-452f-984d-d2a47b106427" time="1372714284018" ignored="false" />
-    <file path="/Dummy.txt" changelist="1a148955-dc38-452f-984d-d2a47b106427" time="1372714564223" ignored="false" />
+    <file path="/Dummy.txt" changelist="1a148955-dc38-452f-984d-d2a47b106427" time="1372714599702" ignored="false" />
     <file path="$PROJECT_DIR$/../../Lessons/Lesson1/src/Main.java" changelist="1a148955-dc38-452f-984d-d2a47b106427" time="1372695861201" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -264,7 +264,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="742" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
