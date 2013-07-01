@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6dd42e30-c28b-4de8-a3a7-5a0b5627afcf" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson2/out/production/Lesson2/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson2/src/Main.java" afterPath="$PROJECT_DIR$/../Lesson2/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/HW1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../HomeWork/HW1/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lesson2/.idea/workspace.xml" />
@@ -13,7 +12,7 @@
     <file path="/Main.java" changelist="6dd42e30-c28b-4de8-a3a7-5a0b5627afcf" time="1372714284018" ignored="false" />
     <file path="/a.java" changelist="6dd42e30-c28b-4de8-a3a7-5a0b5627afcf" time="1372497519535" ignored="false" />
     <file path="/fragment.java" changelist="6dd42e30-c28b-4de8-a3a7-5a0b5627afcf" time="1372583211830" ignored="false" />
-    <file path="/Dummy.txt" changelist="6dd42e30-c28b-4de8-a3a7-5a0b5627afcf" time="1372713930101" ignored="false" />
+    <file path="/Dummy.txt" changelist="6dd42e30-c28b-4de8-a3a7-5a0b5627afcf" time="1372714442651" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
