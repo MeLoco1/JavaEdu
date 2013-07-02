@@ -33,7 +33,7 @@ public class Main {
                 }
             }
             for (int i = 0; i < str_arr.length; i++) {
-                if (str_arr[i] != "") {
+                if (str_arr[i] != "") {     // Спросить почему не equals!
                     System.out.println("\"" + str_arr[i] + "\"" + " = " + statistic_arr[i]);
                 }
             }
@@ -72,15 +72,36 @@ public class Main {
         }
         // Задача 3. Сортировка двумерного массива
         {
-            //System.out.println(" Задача 3:");
+            System.out.println(" Задача 3:");
             int[][] arr = new int[4][5];
             for (int i = 0; i < arr.length; i++) {
                 for (int j = 0; j < arr[i].length; j++) {
-                    arr[i][j] = (int) (Math.random() * 1000);
+                    arr[i][j] = (int) ((Math.random() - 0.5) * 1000);
+                    System.out.print(arr[i][j] + ", ");
                 }
+                System.out.println();
             }
 
-
+            for (int i = 0; i < arr.length; i++) {
+                for (int j = 0; j < arr[i].length; j++) {
+                    for (int k = i; k < arr.length; k++) {
+                        for (int l = j; l < arr[i].length; l++) {
+                            if (arr[k][l] < arr[i][j]) {
+                                int buf = arr[i][j];
+                                arr[i][j] = arr[k][l];
+                                arr[k][l] = buf;
+                            }
+                        }
+                    }
+                }
+            }
+            System.out.println();
+            for (int i = 0; i < arr.length; i++) {
+                for (int j = 0; j < arr[i].length; j++) {
+                    System.out.print(arr[i][j] + ", ");
+                }
+                System.out.println();
+            }
         }
     }
 }

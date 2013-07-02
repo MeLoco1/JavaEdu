@@ -11,7 +11,7 @@
     <file path="/Main.java" changelist="6dd42e30-c28b-4de8-a3a7-5a0b5627afcf" time="1372714284018" ignored="false" />
     <file path="/a.java" changelist="6dd42e30-c28b-4de8-a3a7-5a0b5627afcf" time="1372497519535" ignored="false" />
     <file path="/fragment.java" changelist="6dd42e30-c28b-4de8-a3a7-5a0b5627afcf" time="1372583211830" ignored="false" />
-    <file path="/Dummy.txt" changelist="6dd42e30-c28b-4de8-a3a7-5a0b5627afcf" time="1372714640734" ignored="false" />
+    <file path="/Dummy.txt" changelist="6dd42e30-c28b-4de8-a3a7-5a0b5627afcf" time="1372714669746" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="62" selection-start="764" selection-end="764" vertical-scroll-proportion="0.84">
+            <state line="12" column="60" selection-start="360" selection-end="360" vertical-scroll-proportion="0.36">
               <folding />
             </state>
           </provider>
@@ -375,7 +375,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="62" selection-start="764" selection-end="764" vertical-scroll-proportion="0.84">
+        <state line="12" column="60" selection-start="360" selection-end="360" vertical-scroll-proportion="0.36">
           <folding />
         </state>
       </provider>
