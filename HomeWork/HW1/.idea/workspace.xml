@@ -1,42 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a148955-dc38-452f-984d-d2a47b106427" name="Default" comment="Добавлен поиск самого длинного слова в строке">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReadFile/JavaCourse" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/Lesson3/Lesson3.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReadFile/src/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/Lesson3/src/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReadFile/ReadFile.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReadFile/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReadFile/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/Lesson3/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReadFile/.idea/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/Lesson3/.idea/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReadFile/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/Lesson3/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReadFile/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/Lesson3/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReadFile/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/Lesson3/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReadFile/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/Lesson3/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReadFile/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/Lesson3/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReadFile/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/Lesson3/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReadFile/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/Lesson3/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReadFile/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/Lesson3/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lessons/Lesson2/out/production/Lesson2/Main.class" afterPath="$PROJECT_DIR$/../../Lessons/Lesson2/out/production/Lesson2/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+    <list default="true" id="1a148955-dc38-452f-984d-d2a47b106427" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ReadFile/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ReadFile/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lessons/Lesson2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Lessons/Lesson2/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lessons/Lesson3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Lessons/Lesson3/.idea/workspace.xml" />
     </list>
     <ignored path="HW1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="1a148955-dc38-452f-984d-d2a47b106427" time="1372968649554" ignored="false" />
-    <file path="/Dummy.txt" changelist="1a148955-dc38-452f-984d-d2a47b106427" time="1372970302461" ignored="false" />
+    <file path="/Dummy.txt" changelist="1a148955-dc38-452f-984d-d2a47b106427" time="1372970349630" ignored="false" />
     <file path="$PROJECT_DIR$/../../Lessons/Lesson1/src/Main.java" changelist="1a148955-dc38-452f-984d-d2a47b106427" time="1372695861201" ignored="false" />
     <file path="/fragment.java" changelist="1a148955-dc38-452f-984d-d2a47b106427" time="1372872078450" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -287,7 +261,11 @@
       <created>1372714568656</created>
       <updated>1372714568656</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавлен поиск самого длинного слова в строке">
+      <created>1372970361189</created>
+      <updated>1372970361189</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -312,7 +290,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6705686" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32943144" sideWeight="0.49392098" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.49392098" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -358,7 +336,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен поиск самого длинного слова в строке" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -372,6 +350,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="!" />
+    <MESSAGE value="Добавлен поиск самого длинного слова в строке" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

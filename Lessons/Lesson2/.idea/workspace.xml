@@ -2,43 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f18f137c-6b62-4f2b-8a26-fc32f9be9358" name="Default" comment="Сделана сортировка 2-мерного массива&#10;вопрос по String.equals">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ReadFile/JavaCourse" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson3/Lesson3.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ReadFile/src/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson3/src/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ReadFile/ReadFile.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ReadFile/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ReadFile/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson3/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ReadFile/.idea/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson3/.idea/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ReadFile/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson3/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ReadFile/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson3/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ReadFile/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson3/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ReadFile/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson3/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ReadFile/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson3/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ReadFile/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson3/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ReadFile/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson3/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ReadFile/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson3/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/HW1/out/production/HW1/Main.class" afterPath="$PROJECT_DIR$/../../HomeWork/HW1/out/production/HW1/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/HW1/src/Main.java" afterPath="$PROJECT_DIR$/../../HomeWork/HW1/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/HW1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../HomeWork/HW1/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/ReadFile/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../HomeWork/ReadFile/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lesson3/.idea/workspace.xml" />
     </list>
     <list id="1f0c86d4-0d5f-4f46-b408-f9d7a9438df4" name="Rejected commit: Default" comment="Сделана сортировка 2-мерного массива" />
     <ignored path="Lesson2.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="f18f137c-6b62-4f2b-8a26-fc32f9be9358" time="1372968649553" ignored="false" />
     <file path="/fragment.java" changelist="f18f137c-6b62-4f2b-8a26-fc32f9be9358" time="1372872078450" ignored="false" />
-    <file path="/Dummy.txt" changelist="f18f137c-6b62-4f2b-8a26-fc32f9be9358" time="1372970302461" ignored="false" />
+    <file path="/Dummy.txt" changelist="f18f137c-6b62-4f2b-8a26-fc32f9be9358" time="1372972169148" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -349,7 +324,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="742" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="742" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
