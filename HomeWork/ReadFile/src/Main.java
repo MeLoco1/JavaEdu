@@ -13,7 +13,7 @@ public class Main {
         String rightpath = "#Downloads";
 
         while (scan.hasNext()) {
-            String line = scan.nextLine();
+            String line = scan.nextLine(); // nextLine - вся линия, next - следующее слово
             if (line.contains(rightpath)) {
                 System.out.println(line);
             }
@@ -27,6 +27,5 @@ public class Main {
                 }
             }
         }*/
-
     }
 }

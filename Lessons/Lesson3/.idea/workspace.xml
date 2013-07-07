@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cbf97db-bc4f-46fd-973e-c1d8932aa3cc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/HW1/out/production/HW1/Main.class" afterPath="$PROJECT_DIR$/../../HomeWork/HW1/out/production/HW1/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/HW1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../HomeWork/HW1/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson2/src/Main.java" afterPath="$PROJECT_DIR$/../Lesson2/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/ReadFile/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../HomeWork/ReadFile/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lesson2/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Lesson3.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3cbf97db-bc4f-46fd-973e-c1d8932aa3cc" time="1372972169148" ignored="false" />
-    <file path="/Main.java" changelist="3cbf97db-bc4f-46fd-973e-c1d8932aa3cc" time="1372968649554" ignored="false" />
+    <file path="/Dummy.txt" changelist="3cbf97db-bc4f-46fd-973e-c1d8932aa3cc" time="1372972254674" ignored="false" />
+    <file path="/Main.java" changelist="3cbf97db-bc4f-46fd-973e-c1d8932aa3cc" time="1373184889383" ignored="false" />
     <file path="/fragment.java" changelist="3cbf97db-bc4f-46fd-973e-c1d8932aa3cc" time="1372872078450" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -283,7 +282,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="742" extended-state="1" />
+    <frame x="0" y="0" width="1366" height="742" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -304,7 +303,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6705686" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32943144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />

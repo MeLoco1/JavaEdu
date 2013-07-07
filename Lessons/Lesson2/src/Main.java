@@ -84,9 +84,9 @@ public class Main {
 
             for (int i = 0; i < arr.length; i++) {
                 for (int j = 0; j < arr[i].length; j++) {
-                    for (int k = i; k < arr.length; k++) {
-                        for (int l = j; l < arr[i].length; l++) {
-                            if (arr[k][l] < arr[i][j]) {
+                    for (int k = 0; k < arr.length; k++) {
+                        for (int l = 0; l < arr[k].length; l++) {
+                            if (arr[k][l] > arr[i][j]) {
                                 int buf = arr[i][j];
                                 arr[i][j] = arr[k][l];
                                 arr[k][l] = buf;
@@ -95,6 +95,7 @@ public class Main {
                     }
                 }
             }
+
             System.out.println();
             for (int i = 0; i < arr.length; i++) {
                 for (int j = 0; j < arr[i].length; j++) {
