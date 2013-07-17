@@ -2,16 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dd42e30-c28b-4de8-a3a7-5a0b5627afcf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/HW1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../HomeWork/HW1/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson5/Lesson5.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson5/src/Student.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson5/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson5/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson5/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson5/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson5/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson5/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/untitled/untitled.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/untitled1/untitled1.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson5/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/HW2/src/Statistic.java" afterPath="$PROJECT_DIR$/../../HomeWork/HW2/src/Statistic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/ReadFile/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../HomeWork/ReadFile/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lesson2/.idea/workspace.xml" />
     </list>
     <ignored path="Lesson1.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Main.java" changelist="6dd42e30-c28b-4de8-a3a7-5a0b5627afcf" time="1372714284018" ignored="false" />
+    <file path="/Main.java" changelist="6dd42e30-c28b-4de8-a3a7-5a0b5627afcf" time="1373712281822" ignored="false" />
     <file path="/a.java" changelist="6dd42e30-c28b-4de8-a3a7-5a0b5627afcf" time="1372497519535" ignored="false" />
     <file path="/fragment.java" changelist="6dd42e30-c28b-4de8-a3a7-5a0b5627afcf" time="1372583211830" ignored="false" />
-    <file path="/Dummy.txt" changelist="6dd42e30-c28b-4de8-a3a7-5a0b5627afcf" time="1372714669746" ignored="false" />
+    <file path="/Dummy.txt" changelist="6dd42e30-c28b-4de8-a3a7-5a0b5627afcf" time="1373710610375" ignored="false" />
+    <file path="$PROJECT_DIR$/../Lesson5/src/Main.java" changelist="6dd42e30-c28b-4de8-a3a7-5a0b5627afcf" time="1373712293584" ignored="false" />
+    <file path="/Student.java" changelist="6dd42e30-c28b-4de8-a3a7-5a0b5627afcf" time="1373711424847" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +40,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -61,6 +74,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -73,7 +87,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="60" selection-start="360" selection-end="360" vertical-scroll-proportion="0.36">
+            <state line="8" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.32">
               <folding />
             </state>
           </provider>
@@ -290,7 +304,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32943144" sideWeight="0.4969605" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -301,6 +314,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32943144" sideWeight="0.4969605" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -368,6 +382,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="60" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -375,7 +403,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="60" selection-start="360" selection-end="360" vertical-scroll-proportion="0.36">
+        <state line="8" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.32">
           <folding />
         </state>
       </provider>
