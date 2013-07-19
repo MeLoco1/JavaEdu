@@ -34,8 +34,6 @@ public class Main {
         train.getCarriages().get(0).deletePassenger(15);
         train.getCarriages().get(0).addPassenger("Vasya", "Pupkin");
         train.getCarriages().get(0).addPassenger("Vasya", "Pupkin");
-
-
         train.getCarriages().get(0).report();
      }
 }
