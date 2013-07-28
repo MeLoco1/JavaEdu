@@ -74,8 +74,13 @@ public class ShapeContainer {
         System.out.println("My shapes:");
         System.out.println("-------------");
         for (Shape line : shapes) {
-            BigDecimal value = new BigDecimal(line.getPerimeter());
-            System.out.println(line.getId() + ", " + line.getName() + ", perimeter = " + value.round(new MathContext(4)) + ", Square = " + Math.round(line.getSquare()));
+            //BigDecimal value = new BigDecimal(line.getPerimeter());
+            //System.out.println(line.getId() + ", " + line.getName() + ", perimeter = " + value.round(new MathContext(4)) + ", Square = " + Math.round(line.getSquare()));
+
+            // Форматированнй вывод
+            System.out.println(line.getId() + ", " + line.getName() + ", perimeter = " + line.getPerimeter() + ", Square = " + Math.round(line.getSquare()));
+            System.out.format("%10.3f%n", line.getPerimeter()); //%n позволяет добавить перевод строки
+            ////10 заков всего, 3 после запятой
         }
     }
 }
