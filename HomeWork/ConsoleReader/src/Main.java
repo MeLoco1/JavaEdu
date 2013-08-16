@@ -8,6 +8,5 @@ public class Main {
         OpenFile fileForRead = new OpenFile(file);
         Gui gui = new Gui(fileForRead);
         fileForRead.finilize();
-
     }
 }
