@@ -55,7 +55,7 @@ public class MyLinkedList<E> implements List<E> {
         if (isEmpty()) {
             lastNode = newNode;
             firstNode = newNode;
-            cursor = new Node(null, firstNode, null);
+            cursor = new Node((E) "noDirection", firstNode, null);
         } else {
             newNode.setPrevious(lastNode);
             lastNode.setNext(newNode);
@@ -199,9 +199,15 @@ public class MyLinkedList<E> implements List<E> {
     @Override
     public E remove(int index) {
         checkIndex(index);
-        //to do remove first
-
         Node nodeToRemove = getNode(index);
+
+        if (index == 0) {
+            firstNode = nodeToRemove.getNext();
+            firstNode.setPrevious(null);
+            size--;
+            return nodeToRemove.e;
+        }
+
         if (nodeToRemove.equals(lastNode)) {
             removeLast();
             return nodeToRemove.getPrevious().e;
@@ -223,13 +229,17 @@ public class MyLinkedList<E> implements List<E> {
             }
             Node currentNode = firstNode;
             int index = 0;
-            while (!currentNode.e.equals(o)) {
-                currentNode = currentNode.getNext();
-                index++;
+            try {
+                while (!currentNode.e.equals(o)) {
+                    currentNode = currentNode.getNext();
+                    index++;
+                }
+                return index;
+            } catch (NullPointerException e) {
+                return -1;
             }
-            return index;
-        } else
-            return -1;
+        }
+        return -1;
     }
 
     @Override
@@ -248,11 +258,16 @@ public class MyLinkedList<E> implements List<E> {
 
             @Override
             public E next() {
-                cursor = cursor.getNext();
+                Node nextNode = cursor.getNext();
+                cursor.setNext(nextNode.getNext());
+                cursor.setPrevious(nextNode);
+
+                // Set the last method has been used. Previous or Next. Needed for remove()
+                cursor.e = (E) new String("Next");
                 if (cursor == null) {
                     throw new NoSuchElementException();
                 }
-                return cursor.e;
+                return nextNode.e;
             }
 
             @Override
@@ -262,17 +277,22 @@ public class MyLinkedList<E> implements List<E> {
 
             @Override
             public E previous() {
-                cursor = cursor.getPrevious();
+                Node previousNode = cursor.getPrevious();
+                cursor.setPrevious(previousNode.getPrevious());
+                cursor.setNext(previousNode);
+
+                // Set the last method has been used. Previous or Next. Needed for remove()
+                cursor.e = (E) new String("Previous");
                 if (cursor == null) {
                     throw new NoSuchElementException();
                 }
-                return cursor.e;
+                return previousNode.e;
             }
 
             @Override
             public int nextIndex() {
                 try {
-                return MyLinkedList.this.indexOf(cursor.getNext().e);
+                    return MyLinkedList.this.indexOf(cursor.getNext().e);
                 } catch (NullPointerException e) {
                     return size;
                 }
@@ -281,7 +301,7 @@ public class MyLinkedList<E> implements List<E> {
             @Override
             public int previousIndex() {
                 try {
-                return MyLinkedList.this.indexOf(cursor.getPrevious().e);
+                    return MyLinkedList.this.indexOf(cursor.getPrevious().e);
                 } catch (NullPointerException e) {
                     return -1;
                 }
@@ -289,7 +309,11 @@ public class MyLinkedList<E> implements List<E> {
 
             @Override
             public void remove() {
-                MyLinkedList.this.remove(MyLinkedList.this.indexOf(cursor.e));
+                if (cursor.e.equals("Next")) {
+                    MyLinkedList.this.remove(nextIndex());
+                } else if (cursor.e.equals("Previous")) {
+                    MyLinkedList.this.remove(previousIndex());
+                }
             }
 
             @Override
@@ -299,6 +323,8 @@ public class MyLinkedList<E> implements List<E> {
 
             @Override
             public void add(E e) {
+                // Set the last method has been used. Previous or Next. Needed for remove()
+                cursor.e = (E) new String("Can't remove");
                 //To change body of implemented methods use File | Settings | File Templates.
             }
         };
