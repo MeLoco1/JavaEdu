@@ -116,12 +116,27 @@ public class MyLinkedList<E> implements List<E> {
 
     @Override
     public Object[] toArray() {
-        return new Object[0];  //To change body of implemented methods use File | Settings | File Templates.
+        Object[] result = new Object[size];
+        for (int i = 0; i < result.length; i++) {
+            result[i] = getNode(i).e;
+        }
+        return result;
     }
 
     @Override
     public <T> T[] toArray(T[] a) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        if (a.length < size)
+            a = (T[]) java.lang.reflect.Array.newInstance(
+                    a.getClass().getComponentType(), size);
+        int i = 0;
+        Object[] result = a;
+        for (Node x = firstNode; x != null; x = x.next)
+            result[i++] = x.e;
+
+        if (a.length > size)
+            a[size] = null;
+
+        return a;
     }
 
     @Override
@@ -132,38 +147,42 @@ public class MyLinkedList<E> implements List<E> {
 
     @Override
     public boolean remove(Object o) {
-        return false;  //To change body of implemented methods use File | Settings | File Templates.
+        throw new UnsupportedOperationException();
 
     }
 
     @Override
     public boolean containsAll(Collection<?> c) {
-        return false;  //To change body of implemented methods use File | Settings | File Templates.
+        for (Object line : c) {
+            if (!contains(line))
+                return false;
+        }
+        return true;
     }
 
     @Override
     public boolean addAll(Collection<? extends E> c) {
-        return false;  //To change body of implemented methods use File | Settings | File Templates.
+        throw new UnsupportedOperationException();
     }
 
     @Override
     public boolean addAll(int index, Collection<? extends E> c) {
-        return false;  //To change body of implemented methods use File | Settings | File Templates.
+        throw new UnsupportedOperationException();
     }
 
     @Override
     public boolean removeAll(Collection<?> c) {
-        return false;  //To change body of implemented methods use File | Settings | File Templates.
+        throw new UnsupportedOperationException();
     }
 
     @Override
     public boolean retainAll(Collection<?> c) {
-        return false;  //To change body of implemented methods use File | Settings | File Templates.
+        throw new UnsupportedOperationException();
     }
 
     @Override
     public void clear() {
-        //To change body of implemented methods use File | Settings | File Templates.
+        throw new UnsupportedOperationException();
     }
 
     @Override
@@ -183,17 +202,17 @@ public class MyLinkedList<E> implements List<E> {
                 i++;
             }
             return currentNode;
-        }   //working on it
+        }
     }
 
     @Override
     public E set(int index, E element) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        throw new UnsupportedOperationException();
     }
 
     @Override
     public void add(int index, E element) {
-        //To change body of implemented methods use File | Settings | File Templates.
+        throw new UnsupportedOperationException();
     }
 
     @Override
@@ -244,7 +263,17 @@ public class MyLinkedList<E> implements List<E> {
 
     @Override
     public int lastIndexOf(Object o) {
-        return 0;  //To change body of implemented methods use File | Settings | File Templates.
+        int result = -1;
+        if (!contains(o)) {
+             return result;
+        }
+
+        for (int i = 0; i < size; i++) {
+            if (getNode(i).e.equals(o)) {
+                result = i;
+            }
+        }
+        return result;
     }
 
     @Override
@@ -311,21 +340,23 @@ public class MyLinkedList<E> implements List<E> {
             public void remove() {
                 if (cursor.e.equals("Next")) {
                     MyLinkedList.this.remove(nextIndex());
+                    cursor.e = (E) new String("Can't remove");
+                    System.out.println("can't next");
                 } else if (cursor.e.equals("Previous")) {
                     MyLinkedList.this.remove(previousIndex());
+                    cursor.e = (E) new String("Can't remove");
+                    System.out.println("Can't prev");
                 }
             }
 
             @Override
             public void set(E e) {
-                //To change body of implemented methods use File | Settings | File Templates.
+                throw new UnsupportedOperationException();
             }
 
             @Override
             public void add(E e) {
-                // Set the last method has been used. Previous or Next. Needed for remove()
-                cursor.e = (E) new String("Can't remove");
-                //To change body of implemented methods use File | Settings | File Templates.
+                throw new UnsupportedOperationException();
             }
         };
     }
@@ -337,6 +368,35 @@ public class MyLinkedList<E> implements List<E> {
 
     @Override
     public List<E> subList(int fromIndex, int toIndex) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        MyLinkedList<E> result = new MyLinkedList<E>();
+        while (fromIndex != toIndex) {
+            result.add(get(fromIndex));
+            fromIndex++;
+        }
+        return result;
+    }
+
+    public boolean equals(Object o) {
+        if (o == this)
+            return true;
+        if (!(o instanceof List))
+            return false;
+
+        ListIterator<E> e1 = listIterator();
+        ListIterator e2 = ((List) o).listIterator();
+        while (e1.hasNext() && e2.hasNext()) {
+            E o1 = e1.next();
+            Object o2 = e2.next();
+            if (!(o1==null ? o2==null : o1.equals(o2)))
+                return false;
+        }
+        return !(e1.hasNext() || e2.hasNext());
+    }
+
+    public int hashCode() {
+        int hashCode = 1;
+        for (E e : this)
+            hashCode = 31*hashCode + (e==null ? 0 : e.hashCode());
+        return hashCode;
     }
 }
