@@ -14,12 +14,15 @@ public class MyLinkedList<E> implements List<E> {
     private Node lastNode = null;
     private Node cursor = firstNode;
 
-    public MyLinkedList() {
+    private void incSize() {
+        this.size++;
     }
 
-    public MyLinkedList(Collection<? extends E> c) {
-        this();
-        addAll(c);
+    private void decSize() {
+        this.size--;
+    }
+
+    public MyLinkedList() {
     }
 
     private class Node {
@@ -61,13 +64,13 @@ public class MyLinkedList<E> implements List<E> {
             lastNode.setNext(newNode);
             lastNode = newNode;
         }
-        size++;
+        incSize();
     }
 
     private void removeLast() {
         lastNode = lastNode.getPrevious();
         lastNode.setNext(null);
-        size--;
+        decSize();
 
     }
 
@@ -223,7 +226,7 @@ public class MyLinkedList<E> implements List<E> {
         if (index == 0) {
             firstNode = nodeToRemove.getNext();
             firstNode.setPrevious(null);
-            size--;
+            decSize();
             return nodeToRemove.e;
         }
 
@@ -236,7 +239,7 @@ public class MyLinkedList<E> implements List<E> {
 
         nodeToRemove.getPrevious().setNext(nextAfterBeingRemoved);
         nextAfterBeingRemoved.setPrevious(nodeToRemove.getPrevious());
-        size--;
+        decSize();
         return nodeToRemove.getPrevious().e;
     }
 
