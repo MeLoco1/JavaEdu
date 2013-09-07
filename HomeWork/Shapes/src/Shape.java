@@ -10,8 +10,9 @@ import java.util.ArrayList;
 public class Shape {
     ArrayList<Dot> dots;
     ArrayList<AreaAndPerimeter> typesOfPolygon;
-    Dot leftBorder;
-    Dot rightBorder;
+    private Dot leftBorder;
+    private Dot rightBorder;
+    private float area;
 
     public ArrayList<Dot> getDots() {
         return dots;
@@ -31,6 +32,8 @@ public class Shape {
 
         leftBorder = findPolygonBorders().get(0);
         rightBorder = findPolygonBorders().get(1);
+
+        buildPolygon();
     }
 
     private ArrayList<Dot> findPolygonBorders() {  //Result is left border and right border
@@ -65,16 +68,44 @@ public class Shape {
         } else return 1;
     }
 
-    public float calcY(Dot dot) {
+    private float calcY(Dot dot) {
         float result;
         float tg = (float) (rightBorder.getY() - leftBorder.getY()) / (float) (rightBorder.getX() - leftBorder.getX());
         result = tg * ((float) dot.getX() - leftBorder.getX()) + (float) leftBorder.getY();
         return result;
     }
 
-    private boolean isDotOnLine() {
-        //to do;
+    private boolean isDotOnLine(Dot dot) {
+        if (dot.getY() == calcY(dot)) return true;
         return false;
+    }
+
+    private ArrayList<Dot> sortByX(ArrayList<Dot> dots) {
+        int min = 0;
+        for (int i = 0; i < dots.size(); i++) {
+            for (int j = i + 1; j < dots.size(); j++) {
+                if (dots.get(j).getX() < dots.get(i).getX()) {
+                    Dot buf = dots.get(j);
+                    dots.set(j, dots.get(i));
+                    dots.set(i, buf);
+                }
+            }
+        }
+        return dots;
+    }
+
+    private ArrayList<Dot> sortByXDesc(ArrayList<Dot> dots) {
+        int max = 0;
+        for (int i = 0; i < dots.size(); i++) {
+            for (int j = i + 1; j < dots.size(); j++) {
+                if (dots.get(j).getX() > dots.get(i).getX()) {
+                    Dot buf = dots.get(j);
+                    dots.set(j, dots.get(i));
+                    dots.set(i, buf);
+                }
+            }
+        }
+        return dots;
     }
 
     public void buildPolygon() {
@@ -82,9 +113,54 @@ public class Shape {
         upperLines.add(leftBorder);
         ArrayList<Dot> downLines = new ArrayList<Dot>();
         downLines.add(rightBorder);
+
+        dots.remove(leftBorder);
+        dots.remove(rightBorder);
+
+        for (int i = 0; i < dots.size(); i++) {
+            Dot currentDot = dots.get(i);
+            if (isDotOnLine(currentDot)) {  // Dots on the line between the left and right
+                upperLines.add(currentDot);
+                dots.remove(i);
+            } else if (calcY(currentDot) < currentDot.getY()) {
+                upperLines.add(currentDot);
+            } else {
+                downLines.add(currentDot);
+            }
+        }
+
+        upperLines = sortByX(upperLines);
+        downLines = sortByXDesc(downLines);
+
+
+        dots.removeAll(dots);
+        dots.addAll(0, upperLines);
+        dots.addAll(dots.size(), downLines);
+
+        downLines = sortByX(downLines);
+        System.out.println("---upper---");
+        for (Dot item : upperLines) {
+            System.out.println(item.getX() + "," + item.getY());
+        }
+
+        System.out.println("----down------------");
+        for (Dot item : downLines) {
+            System.out.println(item.getX() + "," + item.getY());
+        }
+
+        int i = 0;
+        int j = 1;
+
+        while (true) {
+            Dot a = upperLines.get(i);
+            if (upperLines.get(i + 1).getX() > upperLines.get(j).getX()) {
+
+            }
+        }
+
     }
 
-    public int getPerimeter() {
+    public float getPerimeter() {
         return this.typesOfPolygon.get(checkTypeOfFigure()).getPerimeter();
     }
 
@@ -93,29 +169,42 @@ public class Shape {
     }
 
     private class Triangle implements AreaAndPerimeter {
+        float a = Calculation.calculateDistance(dots.get(0), dots.get(1));
+        float b = Calculation.calculateDistance(dots.get(1), dots.get(2));
+        float c = Calculation.calculateDistance(dots.get(2), dots.get(0));
 
         @Override
-        public int getPerimeter() {
-
-            return 0;
+        public float getPerimeter() {
+            return (a + b + c) / 2;
         }
 
         @Override
         public float getArea() {
-            return 0;  //To change body of implemented methods use File | Settings | File Templates.
+            float p = getPerimeter();
+            return (float) Math.sqrt(p * (p - a) * (p - b) * (p - c));
         }
-    }      // to do
+    }
 
     private class Polygon implements AreaAndPerimeter {
 
         @Override
-        public int getPerimeter() {
-            return 0;  //To change body of implemented methods use File | Settings | File Templates.
+        public float getPerimeter() {
+            float result = 0f;
+            for (int i = 0; i < dots.size(); i++) {
+
+                ArrayList<Dot> twoDots = new ArrayList<Dot>();
+                if (i < (dots.size() - 1)) {
+                    result += Calculation.calculateDistance(dots.get(i), dots.get(i + 1));
+                } else {
+                    result += Calculation.calculateDistance(dots.get(i), dots.get(0));
+                }
+            }
+            return result;
         }
 
         @Override
         public float getArea() {
-            return 0;  //To change body of implemented methods use File | Settings | File Templates.
+            return area;
         }
-    }       // to do
+    }
 }

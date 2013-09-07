@@ -6,6 +6,6 @@
  * To change this template use File | Settings | File Templates.
  */
 public interface AreaAndPerimeter {
-    int getPerimeter ();
+    float getPerimeter ();
     float getArea();
 }

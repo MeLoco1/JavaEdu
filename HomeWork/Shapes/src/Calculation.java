@@ -8,7 +8,7 @@ import java.util.ArrayList;
  * To change this template use File | Settings | File Templates.
  */
 public class Calculation {
-    private static float calculateDistance(Dot dotFrom, Dot dotTo) {
+    public static float calculateDistance(Dot dotFrom, Dot dotTo) {
         return (float) Math.sqrt(Math.pow((dotTo.getX() - dotFrom.getX()), 2) + Math.pow((dotTo.getY() - dotFrom.getY()), 2));
     }
 
