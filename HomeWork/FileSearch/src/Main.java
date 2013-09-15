@@ -9,7 +9,6 @@ public class Main {
         ArrayList<String> findings = search(new File("/home/loco/JavaEdu"), fileToFind);
         for (String item : findings)
             System.out.println(item);
-        //test
     }
 
     private static ArrayList<String> search(File folder, String fileToFind) {
