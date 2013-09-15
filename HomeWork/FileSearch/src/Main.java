@@ -14,8 +14,6 @@ public class Main {
     private static ArrayList<String> search(File folder, String fileToFind) {
         ArrayList<String> result = new ArrayList<>();
         File[] files = folder.listFiles();
-       // System.out.println(folder.getAbsolutePath());
-        //String error = null;
         try {
         for (int i = 0; i < files.length; i++) {
             if (files[i].isDirectory()) {
