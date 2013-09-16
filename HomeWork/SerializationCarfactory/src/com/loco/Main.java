@@ -1,3 +1,5 @@
+package com.loco;
+
 import java.util.ArrayList;
 
 public class Main {
