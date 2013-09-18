@@ -2,38 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2dc2113-1697-49f7-94d5-6b1e1e72949d" name="Default" comment="commit after git mess">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarFactory/.idea/description.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarFactory/.idea/project-template.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarFactory/out/production/SerializationCarFactory/com/loco/Car.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarFactory/out/production/SerializationCarFactory/com/loco/Client.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarFactory/out/production/SerializationCarFactory/com/loco/GUI.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarFactory/out/production/SerializationCarFactory/com/loco/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarFactory/out/production/SerializationCarFactory/com/loco/SaveLoadCars.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/SerializationCarfactory.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Comparator/.idea/ant.xml" afterPath="$PROJECT_DIR$/../Comparator/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Serialization/.idea/ant.xml" afterPath="$PROJECT_DIR$/../Serialization/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/ExceptionsAndIO/1/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../HomeWork/ExceptionsAndIO/1/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Comparator/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Comparator/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exceptions/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Exceptions/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Serialization/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Serialization/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/ExceptionsAndIO/1/.idea/modules.xml" afterPath="$PROJECT_DIR$/../../HomeWork/ExceptionsAndIO/1/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Collections/Collections.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Collections/src/Iphone.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/Collcetions/Words/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Collections/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/SerializationCarfactory.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Collections/src/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/Collcetions/Words/Words.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/Collcetions/Words/src/WorkWithFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/Collcetions/Words/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Collections/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/Collcetions/Words/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/Collcetions/Words/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/Collcetions/Words/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/Collcetions/Words/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/Collcetions/Words/.idea/libraries/src.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/Collcetions/Words/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/Collcetions/Words/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/ExceptionsAndIO/1/1.iml" afterPath="$PROJECT_DIR$/../../HomeWork/ExceptionsAndIO/1/1.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/.idea/modules.xml" afterPath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Comparator/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Comparator/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exceptions/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Exceptions/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Serialization/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Serialization/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/ExceptionsAndIO/1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../HomeWork/ExceptionsAndIO/1/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exceptions/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Exceptions/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Serialization/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Serialization/.idea/workspace.xml" />
     </list>
     <ignored path="IO.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b2dc2113-1697-49f7-94d5-6b1e1e72949d" time="1379368450547" ignored="false" />
-    <file path="/Main.java" changelist="b2dc2113-1697-49f7-94d5-6b1e1e72949d" time="1379242342146" ignored="false" />
+    <file path="/Dummy.txt" changelist="b2dc2113-1697-49f7-94d5-6b1e1e72949d" time="1379529846962" ignored="false" />
+    <file path="/Main.java" changelist="b2dc2113-1697-49f7-94d5-6b1e1e72949d" time="1379533586756" ignored="false" />
     <file path="/SystemIn.java" changelist="b2dc2113-1697-49f7-94d5-6b1e1e72949d" time="1379009886663" ignored="false" />
     <file path="/CopyLines.java" changelist="b2dc2113-1697-49f7-94d5-6b1e1e72949d" time="1378919168108" ignored="false" />
     <file path="/FileReadWrite.java" changelist="b2dc2113-1697-49f7-94d5-6b1e1e72949d" time="1378919540214" ignored="false" />
@@ -41,7 +38,7 @@
     <file path="/SortOptoins.java" changelist="b2dc2113-1697-49f7-94d5-6b1e1e72949d" time="1378920648412" ignored="false" />
     <file path="/SaveUser.java" changelist="b2dc2113-1697-49f7-94d5-6b1e1e72949d" time="1378925681471" ignored="false" />
     <file path="/SaveLoadUser.java" changelist="b2dc2113-1697-49f7-94d5-6b1e1e72949d" time="1379009718693" ignored="false" />
-    <file path="/WorkWithFile.java" changelist="b2dc2113-1697-49f7-94d5-6b1e1e72949d" time="1379101900236" ignored="false" />
+    <file path="/WorkWithFile.java" changelist="b2dc2113-1697-49f7-94d5-6b1e1e72949d" time="1379533551917" ignored="false" />
     <file path="/Statisic.java" changelist="b2dc2113-1697-49f7-94d5-6b1e1e72949d" time="1379015501548" ignored="false" />
     <file path="/WordsStatistic.java" changelist="b2dc2113-1697-49f7-94d5-6b1e1e72949d" time="1379095412171" ignored="false" />
     <file path="/ReportOptions.java" changelist="b2dc2113-1697-49f7-94d5-6b1e1e72949d" time="1379096624326" ignored="false" />
@@ -113,7 +110,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="5" selection-start="99" selection-end="99" vertical-scroll-proportion="0.026132405">
+            <state line="4" column="5" selection-start="99" selection-end="99" vertical-scroll-proportion="-0.026132405">
               <folding />
             </state>
           </provider>
@@ -193,9 +190,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="width" value="1370" />
-    <option name="height" value="744" />
+    <option name="width" value="1366" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -225,7 +221,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -261,6 +256,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,9 +271,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.SortOptoins">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
@@ -417,7 +413,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1370" height="744" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8903654" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -436,7 +432,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.10963455" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.10963455" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -611,7 +607,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="5" selection-start="99" selection-end="99" vertical-scroll-proportion="0.026132405">
+        <state line="4" column="5" selection-start="99" selection-end="99" vertical-scroll-proportion="-0.026132405">
           <folding />
         </state>
       </provider>

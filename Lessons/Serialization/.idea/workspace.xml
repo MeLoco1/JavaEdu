@@ -2,37 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdbd58f2-a5d8-4298-9e2d-f1d5b5f7b246" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarFactory/.idea/description.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarFactory/.idea/project-template.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarFactory/out/production/SerializationCarFactory/com/loco/Car.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarFactory/out/production/SerializationCarFactory/com/loco/Client.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarFactory/out/production/SerializationCarFactory/com/loco/GUI.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarFactory/out/production/SerializationCarFactory/com/loco/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarFactory/out/production/SerializationCarFactory/com/loco/SaveLoadCars.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/SerializationCarfactory.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Comparator/.idea/ant.xml" afterPath="$PROJECT_DIR$/../Comparator/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/ExceptionsAndIO/1/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../HomeWork/ExceptionsAndIO/1/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Comparator/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Comparator/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exceptions/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Exceptions/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IO/.idea/misc.xml" afterPath="$PROJECT_DIR$/../IO/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/ExceptionsAndIO/1/.idea/modules.xml" afterPath="$PROJECT_DIR$/../../HomeWork/ExceptionsAndIO/1/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/.idea/modules.xml" afterPath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Comparator/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Comparator/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exceptions/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Exceptions/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IO/.idea/modules.xml" afterPath="$PROJECT_DIR$/../IO/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/ExceptionsAndIO/1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../HomeWork/ExceptionsAndIO/1/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/.idea/ant.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exceptions/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Exceptions/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IO/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../IO/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Serialization.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="cdbd58f2-a5d8-4298-9e2d-f1d5b5f7b246" time="1379368450547" ignored="false" />
+    <file path="/Dummy.txt" changelist="cdbd58f2-a5d8-4298-9e2d-f1d5b5f7b246" time="1379368851725" ignored="false" />
     <file path="/User.java" changelist="cdbd58f2-a5d8-4298-9e2d-f1d5b5f7b246" time="1378924287014" ignored="false" />
     <file path="/fragment.java" changelist="cdbd58f2-a5d8-4298-9e2d-f1d5b5f7b246" time="1379368803220" ignored="false" />
     <file path="/Main.java" changelist="cdbd58f2-a5d8-4298-9e2d-f1d5b5f7b246" time="1379109284640" ignored="false" />
