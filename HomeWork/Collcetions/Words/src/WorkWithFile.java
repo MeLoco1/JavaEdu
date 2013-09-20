@@ -19,12 +19,8 @@ public class WorkWithFile {
         try (BufferedReader inputStream = new BufferedReader(new FileReader(path))) {
 
             String line;
-            while ((line = inputStream.readLine()) != null) {
-                String[] words = line.split(" ");
-                for (int i = 0; i < words.length; i++) {
-                    result.add(0, words[i]);
-                }
-            }
+            while ((line = inputStream.readLine()) != null)
+                result.add(line);
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -34,6 +30,24 @@ public class WorkWithFile {
 
         return result;
     }
+
+    public static void writeFile(List<String> fileLines) {
+
+        PrintWriter outputStream = null;
+        try {
+            outputStream = new PrintWriter(new FileWriter("/home/loco/JavaEdu/HomeWork/Collcetions/Words/2"));
+            for (String line : fileLines) {
+                outputStream.println(line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (outputStream != null) {
+                outputStream.close();
+            }
+        }
+    }
+
 
     private List<String> prepareCollection(String string) {
         System.out.println("---------------");

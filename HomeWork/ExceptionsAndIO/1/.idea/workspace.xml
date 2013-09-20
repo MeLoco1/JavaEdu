@@ -2,36 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="844feb96-7518-43bc-a998-3c1a96cdb2aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../Lessons/Collections/Collections.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../Lessons/Collections/src/Iphone.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Collcetions/Words/src/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../Lessons/Collections/src/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SerializationCarfactory/SerializationCarfactory.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../Lessons/Collections/src/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Collcetions/Words/Words.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Collcetions/Words/src/WorkWithFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Collcetions/Words/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SerializationCarfactory/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../Lessons/Collections/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Collcetions/Words/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Collcetions/Words/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Collcetions/Words/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Collcetions/Words/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Collcetions/Words/.idea/libraries/src.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Collcetions/Words/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Collcetions/Words/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.iml" afterPath="$PROJECT_DIR$/1.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../SerializationCarfactory/.idea/modules.xml" afterPath="$PROJECT_DIR$/../../SerializationCarfactory/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../SerializationCarfactory/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../SerializationCarfactory/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Lessons/IO/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../../Lessons/IO/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Lessons/Serialization/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../../Lessons/Serialization/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Collcetions/Words/src/Main.java" afterPath="$PROJECT_DIR$/../../Collcetions/Words/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Collcetions/Words/src/WorkWithFile.java" afterPath="$PROJECT_DIR$/../../Collcetions/Words/src/WorkWithFile.java" />
     </list>
     <ignored path="1.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="844feb96-7518-43bc-a998-3c1a96cdb2aa" time="1379529846965" ignored="false" />
-    <file path="/WorkWithFile.java" changelist="844feb96-7518-43bc-a998-3c1a96cdb2aa" time="1379533551917" ignored="false" />
-    <file path="/Main.java" changelist="844feb96-7518-43bc-a998-3c1a96cdb2aa" time="1379533586756" ignored="false" />
+    <file path="/Dummy.txt" changelist="844feb96-7518-43bc-a998-3c1a96cdb2aa" time="1379533667063" ignored="false" />
+    <file path="/WorkWithFile.java" changelist="844feb96-7518-43bc-a998-3c1a96cdb2aa" time="1379535608640" ignored="false" />
+    <file path="/Main.java" changelist="844feb96-7518-43bc-a998-3c1a96cdb2aa" time="1379535529363" ignored="false" />
     <file path="/Statisic.java" changelist="844feb96-7518-43bc-a998-3c1a96cdb2aa" time="1379015501548" ignored="false" />
     <file path="/WordsStatistic.java" changelist="844feb96-7518-43bc-a998-3c1a96cdb2aa" time="1379095412171" ignored="false" />
     <file path="/ReportOptions.java" changelist="844feb96-7518-43bc-a998-3c1a96cdb2aa" time="1379096624326" ignored="false" />
@@ -41,6 +19,7 @@
     <file path="/ByLenghtAsc.java" changelist="844feb96-7518-43bc-a998-3c1a96cdb2aa" time="1379098254113" ignored="false" />
     <file path="/GUI.java" changelist="844feb96-7518-43bc-a998-3c1a96cdb2aa" time="1379104769715" ignored="false" />
     <file path="/РаботаСПапкой.java" changelist="844feb96-7518-43bc-a998-3c1a96cdb2aa" time="1379105751746" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="844feb96-7518-43bc-a998-3c1a96cdb2aa" time="1379535828177" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
