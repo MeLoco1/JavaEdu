@@ -14,7 +14,9 @@ public class Main {
             fileLinesAsc = WorkWithFile.readFile(path);
 
             fileLinesDesc = WorkWithText.revertWords(fileLinesAsc);
-            fileLinesDesc = WorkWithText.revertLetters(fileLinesAsc);
+            fileLinesDesc = WorkWithText.revertWords(fileLinesDesc);
+            fileLinesDesc = WorkWithText.revertLetters(fileLinesDesc);
+            fileLinesDesc = WorkWithText.revertLetters(fileLinesDesc);
             for (String item : fileLinesDesc) {
                 System.out.println(item);
             }
