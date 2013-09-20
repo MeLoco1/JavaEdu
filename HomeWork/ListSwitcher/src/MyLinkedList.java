@@ -278,7 +278,6 @@ public class MyLinkedList<E> implements List<E> {
         }
         return result;
     }
-
     @Override
     public ListIterator<E> listIterator() {
         return new ListIterator<E>() {
