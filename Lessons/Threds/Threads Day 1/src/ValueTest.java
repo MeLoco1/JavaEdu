@@ -18,7 +18,6 @@ public class ValueTest {
     }
 
     public static void main(String[] args) {
-        MySingleton mySingletonng;
         Incrementor inc1 = new Incrementor();
         inc1.setName("first");
         Incrementor inc2 = new Incrementor();

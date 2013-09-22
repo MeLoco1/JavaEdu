@@ -1,0 +1,11 @@
+There are 4 carriages
+Second train thread is waiting
+Carriage Carriage{carriageNumber=1, timeToUnload=3000} unloaded successfully
+Carriage Carriage{carriageNumber=2, timeToUnload=3000} unloaded successfully
+Carriage Carriage{carriageNumber=3, timeToUnload=3000} unloaded successfully
+Carriage Carriage{carriageNumber=4, timeToUnload=3000} unloaded successfully
+There are 4 carriages
+Carriage Carriage{carriageNumber=1, timeToUnload=2000} unloaded successfully
+Carriage Carriage{carriageNumber=2, timeToUnload=2000} unloaded successfully
+Carriage Carriage{carriageNumber=3, timeToUnload=2000} unloaded successfully
+Carriage Carriage{carriageNumber=4, timeToUnload=2000} unloaded successfully

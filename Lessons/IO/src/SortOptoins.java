@@ -26,6 +26,6 @@ public class SortOptoins {
         } else if (c == '2') {
             FileReadWrite.setFileLines(Sort.sortDesc(FileReadWrite.getFileLines()));
         } else System.out.println("Wrong choice");
-        FileReadWrite.writeFile();
+        FileReadWrite.writeFile("/home/loco/JavaEdu/Lessons/IO/output", FileReadWrite.getFileLines());
     }
 }

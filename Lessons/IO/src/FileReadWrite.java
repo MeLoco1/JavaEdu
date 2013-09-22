@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -36,19 +37,16 @@ public class FileReadWrite {
         }
     }
 
-    public static void writeFile() throws IOException {
+    public static void writeFile(String path, List<String> strings) {
 
-        PrintWriter outputStream = null;
-        outputStream = new PrintWriter(new FileWriter("/home/loco/JavaEdu/Lessons/IO/outputbuffer"));
 
-        try {
-            for (String line : fileLines) {
+        try (PrintWriter outputStream = new PrintWriter(new FileWriter(path, true))) {
+
+            for (String line : strings) {
                 outputStream.println(line);
             }
-        } finally {
-            if (outputStream != null) {
-                outputStream.close();
-            }
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
