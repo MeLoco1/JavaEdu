@@ -28,7 +28,9 @@ public class GUI {
                 if ((choice < 1) || (choice > 3)) throw new NumberFormatException();
 
                 switch (choice) {
-                    case 1: newGame(bufferedReader); break;
+                    case 1:
+                        newGame(bufferedReader);
+                        break;
                 }
 
             } catch (IOException e) {
@@ -50,7 +52,15 @@ public class GUI {
 
         if (!name.matches("[A-Za-z]*")) throw new NumberFormatException();
 
-        User.checkName(name);
+        User user;
+        if (User.checkName(name)) {
+            user = WorkWithFile.load(name);
+        } else {
+            user = new User(name);
+        }
+
+
+
 
     }
 

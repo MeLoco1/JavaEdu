@@ -21,11 +21,13 @@ public class FileReadWrite {
         return fileLines;
     }
 
-    public static void readFile() throws IOException {
+    public static void readFile(String path) throws IOException {
 
         BufferedReader inputStream = null;
         try {
-            inputStream = new BufferedReader(new FileReader("/home/loco/JavaEdu/Lessons/IO/Input"));
+           // inputStream = new BufferedReader(new FileReader("/home/loco/JavaEdu/Lessons/IO/Input"));
+            inputStream = new BufferedReader(new FileReader(path));
+
             String l;
             while ((l = inputStream.readLine()) != null) {
                 fileLines.add(l);
