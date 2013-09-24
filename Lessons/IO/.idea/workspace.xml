@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2dc2113-1697-49f7-94d5-6b1e1e72949d" name="Default" comment="commit after git mess">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/Fishing/Fishing.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/Fishing/src/GUI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/Fishing/src/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/Fishing/src/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IO.iml" afterPath="$PROJECT_DIR$/IO.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/.idea/modules.xml" afterPath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IO.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b2dc2113-1697-49f7-94d5-6b1e1e72949d" time="1379966805878" ignored="false" />
+    <file path="/Dummy.txt" changelist="b2dc2113-1697-49f7-94d5-6b1e1e72949d" time="1380049894181" ignored="false" />
     <file path="/Main.java" changelist="b2dc2113-1697-49f7-94d5-6b1e1e72949d" time="1379846233878" ignored="false" />
     <file path="/SystemIn.java" changelist="b2dc2113-1697-49f7-94d5-6b1e1e72949d" time="1379009886663" ignored="false" />
     <file path="/CopyLines.java" changelist="b2dc2113-1697-49f7-94d5-6b1e1e72949d" time="1378919168108" ignored="false" />
@@ -127,7 +121,7 @@
       <file leaf-file-name="FileReadWrite.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FileReadWrite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="70" selection-start="984" selection-end="984" vertical-scroll-proportion="0.5430784">
+            <state line="37" column="69" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.4425087">
               <folding />
             </state>
           </provider>
@@ -259,7 +253,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Serialization" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Threds/Threads Day 2" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -611,7 +605,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FileReadWrite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="70" selection-start="984" selection-end="984" vertical-scroll-proportion="0.5430784">
+        <state line="37" column="69" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.4425087">
           <folding />
         </state>
       </provider>
