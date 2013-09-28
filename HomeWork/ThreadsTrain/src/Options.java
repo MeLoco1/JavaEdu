@@ -6,4 +6,5 @@
  * To change this template use File | Settings | File Templates.
  */
 public class Options {
+    public static final int WAIT_TIME = 1000;
 }
