@@ -2,14 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdbd58f2-a5d8-4298-9e2d-f1d5b5f7b246" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../HomeWork/SerializationCarfactory/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Reflection/src/GetDataFromObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Reflection/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Reflection/Reflection.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Reflection/src/SimpleClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Reflection/.idea/ant.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../HomeWork/ThreadsTrain/src/Carriage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../HomeWork/ThreadsTrain/src/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../HomeWork/ThreadsTrain/src/Options.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../HomeWork/ThreadsTrain/src/Path.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../HomeWork/ThreadsTrain/src/Train.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../HomeWork/ThreadsTrain/src/TrainStation.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Threds/Task/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Threds/Task/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IO/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../IO/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Threds/Task/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Threds/Task/.idea/workspace.xml" />
     </list>
     <ignored path="Serialization.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="cdbd58f2-a5d8-4298-9e2d-f1d5b5f7b246" time="1379368851725" ignored="false" />
+    <file path="/Dummy.txt" changelist="cdbd58f2-a5d8-4298-9e2d-f1d5b5f7b246" time="1380354833430" ignored="false" />
     <file path="/User.java" changelist="cdbd58f2-a5d8-4298-9e2d-f1d5b5f7b246" time="1378924287014" ignored="false" />
     <file path="/fragment.java" changelist="cdbd58f2-a5d8-4298-9e2d-f1d5b5f7b246" time="1379368803220" ignored="false" />
     <file path="/Main.java" changelist="cdbd58f2-a5d8-4298-9e2d-f1d5b5f7b246" time="1379109284640" ignored="false" />
@@ -115,7 +125,7 @@
       <file leaf-file-name="User.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="62" selection-start="486" selection-end="486" vertical-scroll-proportion="0.4787234">
+            <state line="18" column="62" selection-start="486" selection-end="486" vertical-scroll-proportion="0.3125">
               <folding>
                 <element signature="docComment;class#User#0" expanded="false" />
               </folding>
@@ -150,9 +160,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="width" value="1370" />
-    <option name="height" value="744" />
+    <option name="width" value="1366" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -211,9 +220,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Application.SystemIn">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
@@ -315,7 +324,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1370" height="744" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -325,7 +334,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -334,7 +343,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14545454" sideWeight="0.67" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14545454" sideWeight="0.6710963" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -520,7 +529,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="62" selection-start="486" selection-end="486" vertical-scroll-proportion="0.4787234">
+        <state line="18" column="62" selection-start="486" selection-end="486" vertical-scroll-proportion="0.3125">
           <folding>
             <element signature="docComment;class#User#0" expanded="false" />
           </folding>
