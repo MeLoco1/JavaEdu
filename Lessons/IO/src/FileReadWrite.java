@@ -21,8 +21,9 @@ public class FileReadWrite {
         return fileLines;
     }
 
-    public static void readFile(String path) throws IOException {
+    public static List<String> readFile(String path) throws IOException {
 
+        ArrayList<String> result = new ArrayList<>();
         BufferedReader inputStream = null;
         try {
            // inputStream = new BufferedReader(new FileReader("/home/loco/JavaEdu/Lessons/IO/Input"));
@@ -30,13 +31,14 @@ public class FileReadWrite {
 
             String l;
             while ((l = inputStream.readLine()) != null) {
-                fileLines.add(l);
+                result.add(l);
             }
         } finally {
             if (inputStream != null) {
                 inputStream.close();
             }
         }
+        return result;
     }
 
     public static void writeFile(String path, List<String> strings) {

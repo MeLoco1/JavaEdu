@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -6,36 +7,61 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
         TrainStation trainStation = new TrainStation("South Park");
         List<Path> paths = new ArrayList<Path>();
-        paths.add(new Path(1));
-      //  paths.add(new Path(2));
+        List<Train> trains = new ArrayList<Train>();
+        List<String> file = null;
+
+
+        try {
+            file = FileReadWrite.readFile("d:\\Google Диск\\Java\\JavaEdu\\HomeWork\\ThreadsTrain\\src\\Conf");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        if (file == null) {
+            System.out.println("The configuration hasn't been loaded");
+            throw new NullPointerException();
+        }
+
+        int pathsNumber = 0;
+        for (int i = 0; i < file.size(); i++) {
+            String fileLine = file.get(i);
+            try {
+                if (fileLine.contains("Paths")) {
+                    String[] confLine = fileLine.split("=");
+                    pathsNumber = Integer.parseInt(confLine[1]);
+                }
+
+                List<Carriage> carriages = new ArrayList<Carriage>();
+                if (fileLine.contains("Train")) {
+                    String[] train = fileLine.split(",");
+                    for (int j = 0; j < Integer.parseInt(train[1]); j++) {
+                        carriages.add(new Carriage(j, Integer.parseInt(train[2])));
+                    }
+                    trains.add(new Train(train[0], carriages));
+
+                }
+
+            } catch (ArrayIndexOutOfBoundsException e) {
+                System.out.println("Wrong configuration file");
+                e.printStackTrace();
+            } catch (NumberFormatException e) {
+                System.out.println("Wrong configuration file");
+                e.printStackTrace();
+            }
+        }
+
+        for (int i = 0; i < pathsNumber; i++) {
+            paths.add(new Path(i + 1));
+        }
         trainStation.setPaths(paths);
 
-        List<Carriage> carriages1 = new ArrayList<Carriage>();
-        carriages1.add(new Carriage(1, 3000));
-        carriages1.add(new Carriage(2, 3000));
-        carriages1.add(new Carriage(3, 3000));
-        carriages1.add(new Carriage(4, 3000));
-        Train train1 = new Train("Arrow", carriages1);
+        for (Train item : trains) {
+            item.setTrainStation(trainStation);
+            item.start();
 
-        List<Carriage> carriages2 = new ArrayList<Carriage>();
-        carriages2.add(new Carriage(1, 2000));
-        carriages2.add(new Carriage(2, 2000));
-        carriages2.add(new Carriage(3, 2000));
-        carriages2.add(new Carriage(4, 2000));
-        carriages2.add(new Carriage(5, 2000));
-        Train train2 = new Train("Force", carriages2);
-
-        train1.setTrainStation(trainStation);
-        train2.setTrainStation(trainStation);
-
-        train1.start();
-        train2.start();
-
-
-       // train1.join();
-       // train2.join();
-
-
+        }
+        for (Train item : trains) {
+            item.join();
+        }
 
     }
 }

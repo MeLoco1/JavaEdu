@@ -20,7 +20,8 @@ public class SortOptoins {
             e.printStackTrace();
         }
 
-        FileReadWrite.readFile();
+
+        FileReadWrite.readFile("Path to the file");
         if (c == '1') {
             FileReadWrite.setFileLines(Sort.sortAsc(FileReadWrite.getFileLines()));
         } else if (c == '2') {
