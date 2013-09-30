@@ -26,6 +26,7 @@ public class Train extends Thread {
 
     public void unload() {
 
+
         System.out.println("Unloading train " + name);
         for (Carriage carriage : carriages) {
             try {
