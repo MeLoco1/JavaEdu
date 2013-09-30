@@ -11,6 +11,5 @@ public class IntCounter implements Callable<Integer> {      //  Поток, ко
             TimeUnit.SECONDS.sleep(1);
         }
         return c;
-
     }
 }
