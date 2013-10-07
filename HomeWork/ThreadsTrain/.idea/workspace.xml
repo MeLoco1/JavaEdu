@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d620d9a1-368d-467f-a76f-89e9277a067c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/IO/.idea/artifacts/IO_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/IO/src/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lessons/IO/src/FileReadWrite.java" afterPath="$PROJECT_DIR$/../../Lessons/IO/src/FileReadWrite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lessons/IO/src/SortOptoins.java" afterPath="$PROJECT_DIR$/../../Lessons/IO/src/SortOptoins.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThreadsTrain.iml" afterPath="$PROJECT_DIR$/ThreadsTrain.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lessons/IO/.idea/ant.xml" afterPath="$PROJECT_DIR$/../../Lessons/IO/.idea/ant.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lessons/IO/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Lessons/IO/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lessons/Threds/Task/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Lessons/Threds/Task/.idea/workspace.xml" />
     </list>
     <ignored path="ThreadsTrain.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d620d9a1-368d-467f-a76f-89e9277a067c" time="1380565902361" ignored="false" />
+    <file path="/Dummy.txt" changelist="d620d9a1-368d-467f-a76f-89e9277a067c" time="1380569573575" ignored="false" />
     <file path="/Carriage.java" changelist="d620d9a1-368d-467f-a76f-89e9277a067c" time="1380053146621" ignored="false" />
     <file path="/Train.java" changelist="d620d9a1-368d-467f-a76f-89e9277a067c" time="1380228791300" ignored="false" />
     <file path="/TrainStation.java" changelist="d620d9a1-368d-467f-a76f-89e9277a067c" time="1380228771245" ignored="false" />
@@ -354,7 +346,11 @@
       <created>1380372495197</created>
       <updated>1380372495197</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Trains ready">
+      <created>1380569605253</created>
+      <updated>1380569605253</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -375,7 +371,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18046358" sideWeight="0.67109007" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890996" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890996" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -429,7 +425,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson is over" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trains ready" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -444,6 +440,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Lesson is over" />
+    <MESSAGE value="Trains ready" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

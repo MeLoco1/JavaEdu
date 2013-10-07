@@ -1,9 +1,9 @@
 /**
  * Created with IntelliJ IDEA.
  * User: Loco
- * Date: 03.10.13
- * Time: 22:30
+ * Date: 06.10.13
+ * Time: 12:54
  * To change this template use File | Settings | File Templates.
  */
-public interface Workable {
+public @interface Saveable {
 }

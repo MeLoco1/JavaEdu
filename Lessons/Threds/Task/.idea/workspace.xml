@@ -2,22 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="293284b3-6ea0-495d-8507-13b01dba5537" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../HomeWork/ThreadsTrain/src/Conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../IO/.idea/artifacts/IO_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../IO/src/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../IO/src/FileReadWrite.java" afterPath="$PROJECT_DIR$/../../IO/src/FileReadWrite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../HomeWork/ThreadsTrain/src/Main.java" afterPath="$PROJECT_DIR$/../../../HomeWork/ThreadsTrain/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../IO/src/SortOptoins.java" afterPath="$PROJECT_DIR$/../../IO/src/SortOptoins.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../HomeWork/ThreadsTrain/ThreadsTrain.iml" afterPath="$PROJECT_DIR$/../../../HomeWork/ThreadsTrain/ThreadsTrain.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../IO/.idea/ant.xml" afterPath="$PROJECT_DIR$/../../IO/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../HomeWork/Fishing/src/Fishing.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../HomeWork/Fishing/out/production/Fishing/GUI.class" afterPath="$PROJECT_DIR$/../../../HomeWork/Fishing/out/production/Fishing/GUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../HomeWork/Fishing/out/production/Fishing/Main.class" afterPath="$PROJECT_DIR$/../../../HomeWork/Fishing/out/production/Fishing/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../HomeWork/Fishing/out/production/Fishing/User.class" afterPath="$PROJECT_DIR$/../../../HomeWork/Fishing/out/production/Fishing/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../HomeWork/Fishing/src/GUI.java" afterPath="$PROJECT_DIR$/../../../HomeWork/Fishing/src/GUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../HomeWork/Fishing/src/Main.java" afterPath="$PROJECT_DIR$/../../../HomeWork/Fishing/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../HomeWork/Fishing/src/User.java" afterPath="$PROJECT_DIR$/../../../HomeWork/Fishing/src/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../HomeWork/Fishing/src/WorkWithFile.java" afterPath="$PROJECT_DIR$/../../../HomeWork/Fishing/src/WorkWithFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../HomeWork/Fishing/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../../HomeWork/Fishing/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../HomeWork/ThreadsTrain/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../../HomeWork/ThreadsTrain/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../IO/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../IO/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Serialization/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Serialization/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Task.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../../Singleton/.idea/workspace.xml" changelist="293284b3-6ea0-495d-8507-13b01dba5537" time="1379845362072" ignored="false" />
-    <file path="/Dummy.txt" changelist="293284b3-6ea0-495d-8507-13b01dba5537" time="1380565902361" ignored="false" />
+    <file path="/Dummy.txt" changelist="293284b3-6ea0-495d-8507-13b01dba5537" time="1380827454364" ignored="false" />
     <file path="/Main.java" changelist="293284b3-6ea0-495d-8507-13b01dba5537" time="1380569392412" ignored="false" />
     <file path="/TrainThread.java" changelist="293284b3-6ea0-495d-8507-13b01dba5537" time="1379841027762" ignored="false" />
     <file path="/a.dummy" changelist="293284b3-6ea0-495d-8507-13b01dba5537" time="1379838446484" ignored="false" />
@@ -27,11 +29,14 @@
     <file path="/FileReadWrite.java" changelist="293284b3-6ea0-495d-8507-13b01dba5537" time="1380566620161" ignored="false" />
     <file path="/Log.java" changelist="293284b3-6ea0-495d-8507-13b01dba5537" time="1379847890011" ignored="false" />
     <file path="/SortOptoins.java" changelist="293284b3-6ea0-495d-8507-13b01dba5537" time="1379846755085" ignored="false" />
-    <file path="/User.java" changelist="293284b3-6ea0-495d-8507-13b01dba5537" time="1380355761722" ignored="false" />
+    <file path="/User.java" changelist="293284b3-6ea0-495d-8507-13b01dba5537" time="1380659759294" ignored="false" />
     <file path="/SimpleClass.java" changelist="293284b3-6ea0-495d-8507-13b01dba5537" time="1380362936488" ignored="false" />
     <file path="/Visible.java" changelist="293284b3-6ea0-495d-8507-13b01dba5537" time="1380364401435" ignored="false" />
     <file path="$PROJECT_DIR$/../../../HomeWork/ThreadsTrain/src/Train.java" changelist="293284b3-6ea0-495d-8507-13b01dba5537" time="1380563414281" ignored="false" />
     <file path="/Conf" changelist="293284b3-6ea0-495d-8507-13b01dba5537" time="1380567985607" ignored="false" />
+    <file path="/GUI.java" changelist="293284b3-6ea0-495d-8507-13b01dba5537" time="1380661548955" ignored="false" />
+    <file path="/WorkWithFile.java" changelist="293284b3-6ea0-495d-8507-13b01dba5537" time="1380659984678" ignored="false" />
+    <file path="/Fishing.java" changelist="293284b3-6ea0-495d-8507-13b01dba5537" time="1380661708446" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +145,7 @@
       <file leaf-file-name="Carriage.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Carriage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="40" selection-start="632" selection-end="632" vertical-scroll-proportion="0.24685383">
+            <state line="20" column="124" selection-start="591" selection-end="591" vertical-scroll-proportion="0.23129252">
               <folding>
                 <element signature="docComment;class#Carriage#0" expanded="false" />
               </folding>
@@ -182,7 +187,7 @@
     <option name="x" value="54" />
     <option name="y" value="-8" />
     <option name="width" value="1874" />
-    <option name="height" value="1216" />
+    <option name="height" value="1212" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -212,7 +217,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -233,6 +237,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -335,7 +340,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1216" extended-state="6" />
+    <frame x="54" y="-8" width="1874" height="1212" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -533,7 +538,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Carriage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="40" selection-start="632" selection-end="632" vertical-scroll-proportion="0.24685383">
+        <state line="20" column="124" selection-start="591" selection-end="591" vertical-scroll-proportion="0.23129252">
           <folding>
             <element signature="docComment;class#Carriage#0" expanded="false" />
           </folding>

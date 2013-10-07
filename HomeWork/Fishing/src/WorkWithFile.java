@@ -1,7 +1,4 @@
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.ObjectInputStream;
+import java.io.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -23,5 +20,15 @@ public class WorkWithFile {
             e.printStackTrace();
         }
         return result;
+    }
+
+    public static void save(User user) {
+        try (ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream("d:\\Google Диск\\Java\\JavaEdu\\HomeWork\\Fishing\\profiles\\" + user.getName()))) {
+            outputStream.writeObject(user);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

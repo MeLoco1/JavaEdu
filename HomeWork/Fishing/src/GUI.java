@@ -43,6 +43,7 @@ public class GUI {
         }
     }
 
+
     private static void newGame(BufferedReader bufferedReader) throws IOException {
         Character.getNumericValue(bufferedReader.read());  // Enter
         System.out.println("------------ New Game -------------");
@@ -55,13 +56,61 @@ public class GUI {
         User user;
         if (User.checkName(name)) {
             user = WorkWithFile.load(name);
+            System.out.println("Password: ");
+            String password = bufferedReader.readLine();
+            if (!password.equals(user.getPassword())) {
+                System.out.println("Wrong password, bye-bye");
+                System.exit(0);
+            }
         } else {
-            user = new User(name);
+            boolean correct = false;
+            String password = null;
+            String verifyPassword;
+            while (!correct) {
+                System.out.println("Enter the password");
+                password = bufferedReader.readLine();
+                System.out.println("repeat your password");
+                verifyPassword = bufferedReader.readLine();
+                if (!password.equals(verifyPassword)) {
+                    System.out.println("You entered different passwords");
+                } else {
+                    correct = true;
+                }
+            }
+            user = new User(name, password);
+            WorkWithFile.save(user);
         }
 
+        statistics(user);
+        String choice = menu(bufferedReader, "catch ot exit?", "catch", "exit");
 
-
+        if (choice.equals("catch")) {
+            Fishing fishing = new Fishing();
+            fishing.catchFish(bufferedReader);
+        }
 
     }
 
+    private static void statistics(User user) {
+        System.out.println("Hello, " + user.getName());
+        System.out.println("---------- Your statistic ----------");
+        System.out.println("IDE = " + user.getIde());
+        System.out.println("PIKE = " + user.getPike());
+        System.out.println("CATFISH = " + user.getCatfish());
+        System.out.println("------------------------------------");
+    }
+
+
+    public static String menu(BufferedReader bufferedReader, String text, String option1, String option2) throws IOException {
+        String choice = null;
+        boolean correct = false;
+        while (!correct) {
+            System.out.println(text);
+            choice = bufferedReader.readLine();
+            if (choice.matches(option1) || choice.matches(option2)) {
+                correct = true;
+            } else System.out.println("Wrong");
+        }
+        return choice;
+    }
 }

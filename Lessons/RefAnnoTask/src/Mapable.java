@@ -1,9 +1,9 @@
 /**
  * Created with IntelliJ IDEA.
  * User: Loco
- * Date: 03.10.13
- * Time: 22:32
+ * Date: 06.10.13
+ * Time: 15:27
  * To change this template use File | Settings | File Templates.
  */
-public interface Student {
+public interface Mapable {
 }

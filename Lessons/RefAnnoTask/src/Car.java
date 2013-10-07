@@ -6,4 +6,15 @@
  * To change this template use File | Settings | File Templates.
  */
 public class Car {
+    private static String factory;
+
+    public static String getFactory() {
+        return factory;
+    }
+
+    public void setFactory(String factory) {
+        Car.factory = factory;
+    }
 }
+
+

@@ -1,5 +1,7 @@
 import java.io.File;
 import java.io.Serializable;
+import java.io.UnsupportedEncodingException;
+import java.util.Arrays;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,15 +15,32 @@ public class User implements Serializable {
     private int ide;
     private int pike;
     private int catfish;
+    private byte[] password;
+
+    public String getPassword() {
+        try {
+            return new String(password, "UTF-16");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 
     @Override
     public String toString() {
-        return "User{" +
-                "name='" + name + '\'' +
-                ", ide=" + ide +
-                ", pike=" + pike +
-                ", catfish=" + catfish +
-                '}';
+        return new StringBuilder("User{")
+                .append("name='")
+                .append(name)
+                .append('\'')
+                .append(", ide=")
+                .append(ide)
+                .append(", pike=")
+                .append(pike)
+                .append(", catfish=")
+                .append(catfish)
+                .append(", password=")
+                .append(Arrays.toString(password))
+                .append('}').toString();
     }
 
     public static boolean checkName(String userName) {
@@ -29,6 +48,32 @@ public class User implements Serializable {
         for (File item : files)
             if (userName.equals(item.getName())) return true;
         return false;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof User)) return false;
+
+        User user = (User) o;
+
+        if (catfish != user.catfish) return false;
+        if (ide != user.ide) return false;
+        if (pike != user.pike) return false;
+        if (!name.equals(user.name)) return false;
+        if (!password.equals(user.password)) return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = name.hashCode();
+        result = 31 * result + ide;
+        result = 31 * result + pike;
+        result = 31 * result + catfish;
+        result = 31 * result + password.hashCode();
+        return result;
     }
 
     public String getName() {
@@ -63,8 +108,16 @@ public class User implements Serializable {
         this.catfish = catfish;
     }
 
-    public User(String name) {
+    public User(String name, String password) {
 
         this.name = name;
+        byte[] bytes = new byte[0];
+        try {
+            bytes = password.getBytes("UTF-16");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+
+        this.password = bytes;
     }
 }
