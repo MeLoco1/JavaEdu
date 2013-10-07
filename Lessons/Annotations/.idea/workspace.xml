@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="541b1db1-80a9-48ef-8a48-08a9abe53d7c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RefAnnoTask/src/Ship.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RefAnnoTask/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="D:\Google Диск\Java\JavaEdu\Lessons\RefAnnoTask\src\Student.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Google Диск\Java\JavaEdu\Lessons\RefAnnoTask\src\Workable.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/Fishing/out/production/Fishing/GUI.class" afterPath="$PROJECT_DIR$/../../HomeWork/Fishing/out/production/Fishing/GUI.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/Fishing/out/production/Fishing/Main.class" afterPath="$PROJECT_DIR$/../../HomeWork/Fishing/out/production/Fishing/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/Fishing/out/production/Fishing/User.class" afterPath="$PROJECT_DIR$/../../HomeWork/Fishing/out/production/Fishing/User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Annotations.iml" afterPath="$PROJECT_DIR$/Annotations.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../RefAnnoTask/src/BaseClass.java" afterPath="$PROJECT_DIR$/../RefAnnoTask/src/BaseClass.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../RefAnnoTask/src/Car.java" afterPath="$PROJECT_DIR$/../RefAnnoTask/src/Car.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../RefAnnoTask/src/DataMapper.java" afterPath="$PROJECT_DIR$/../RefAnnoTask/src/DataMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/Fishing/src/Fishing.java" afterPath="$PROJECT_DIR$/../../HomeWork/Fishing/src/Fishing.java" />
@@ -17,27 +20,32 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/Fishing/src/Main.java" afterPath="$PROJECT_DIR$/../../HomeWork/Fishing/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../RefAnnoTask/src/Main.java" afterPath="$PROJECT_DIR$/../RefAnnoTask/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../RefAnnoTask/RefAnnoTask.iml" afterPath="$PROJECT_DIR$/../RefAnnoTask/RefAnnoTask.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../RefAnnoTask/src/Simpleclass.java" afterPath="$PROJECT_DIR$/../RefAnnoTask/src/Simpleclass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../RefAnnoTask/src/Student.java" afterPath="$PROJECT_DIR$/../RefAnnoTask/src/Student.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/Fishing/src/User.java" afterPath="$PROJECT_DIR$/../../HomeWork/Fishing/src/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../RefAnnoTask/src/User.java" afterPath="$PROJECT_DIR$/../RefAnnoTask/src/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/Fishing/src/WorkWithFile.java" afterPath="$PROJECT_DIR$/../../HomeWork/Fishing/src/WorkWithFile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../RefAnnoTask/src/Workable.java" afterPath="$PROJECT_DIR$/../RefAnnoTask/src/Workable.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../RefAnnoTask/.idea/misc.xml" afterPath="$PROJECT_DIR$/../RefAnnoTask/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Reflection/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Reflection/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Reflection/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Reflection/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/Fishing/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../HomeWork/Fishing/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/ThreadsTrain/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../HomeWork/ThreadsTrain/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IO/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../IO/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../RefAnnoTask/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../RefAnnoTask/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Reflection/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Reflection/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Serialization/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Serialization/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Threds/Task/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Threds/Task/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\Google Диск\Java\JavaEdu\Lessons\RefAnnoTask\src\BaseClass.java" afterPath="$PROJECT_DIR$/../RefAnnoTask/src/Mapable.java" />
+      <change type="MOVED" beforePath="D:\Google Диск\Java\JavaEdu\Lessons\RefAnnoTask\src\Simpleclass.java" afterPath="$PROJECT_DIR$/../RefAnnoTask/src/Saveable.java" />
     </list>
     <ignored path="Annotations.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="541b1db1-80a9-48ef-8a48-08a9abe53d7c" time="1381052817605" ignored="false" />
+    <file path="/Dummy.txt" changelist="541b1db1-80a9-48ef-8a48-08a9abe53d7c" time="1381179464101" ignored="false" />
+    <file path="/Saveable.java" changelist="541b1db1-80a9-48ef-8a48-08a9abe53d7c" time="1381053390953" ignored="false" />
+    <file path="/User.java" changelist="541b1db1-80a9-48ef-8a48-08a9abe53d7c" time="1381062824206" ignored="false" />
+    <file path="/DataMapper.java" changelist="541b1db1-80a9-48ef-8a48-08a9abe53d7c" time="1381179502965" ignored="false" />
+    <file path="/Main.java" changelist="541b1db1-80a9-48ef-8a48-08a9abe53d7c" time="1381177588472" ignored="false" />
+    <file path="/Car.java" changelist="541b1db1-80a9-48ef-8a48-08a9abe53d7c" time="1381062920473" ignored="false" />
+    <file path="/BaseClass.java" changelist="541b1db1-80a9-48ef-8a48-08a9abe53d7c" time="1381062125056" ignored="false" />
+    <file path="/Mapable.java" changelist="541b1db1-80a9-48ef-8a48-08a9abe53d7c" time="1381062487516" ignored="false" />
+    <file path="/Ship.java" changelist="541b1db1-80a9-48ef-8a48-08a9abe53d7c" time="1381066113235" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,25 +108,25 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="62" selection-start="1299" selection-end="1299" vertical-scroll-proportion="0.0">
+            <state line="43" column="57" selection-start="1299" selection-end="1299" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Visible.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Visible.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Visible.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="162" selection-end="306" vertical-scroll-proportion="0.03349754">
+            <state line="6" column="0" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleClass.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SimpleClass.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SimpleClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="54" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
+            <state line="20" column="18" selection-start="455" selection-end="455" vertical-scroll-proportion="0.33497536">
               <folding />
             </state>
           </provider>
@@ -443,21 +451,21 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="62" selection-start="1299" selection-end="1299" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SimpleClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="54" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
+        <state line="43" column="57" selection-start="1299" selection-end="1299" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Visible.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="162" selection-end="306" vertical-scroll-proportion="0.03349754">
+        <state line="6" column="0" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SimpleClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="18" selection-start="455" selection-end="455" vertical-scroll-proportion="0.33497536">
           <folding />
         </state>
       </provider>

@@ -24,11 +24,26 @@ public class Main {
         User user3 = new User("Me", "Kate", 26);
         user3.salary = 2000;
 
+        Ship ship1 = new Ship("Titanic");
+        Ship ship2 = new Ship("Britanic");
+
         DataMapper dataMapper = new DataMapper("d:\\Google Диск\\Java\\JavaEdu\\Lessons\\RefAnnoTask\\DB\\");
-        dataMapper.saveMetadata(user1);
-        dataMapper.save(user1);
+//        dataMapper.save(ship1);
+//        dataMapper.save(ship2);
+//        dataMapper.save(user1);
+//        dataMapper.save(user2);
+//        dataMapper.save(user3);
+//        dataMapper.save(car1);
+//        dataMapper.save(car2);
+//        User loadedUser = (User) dataMapper.load("User", "152956529");
+//        Ship loadedShip = (Ship) dataMapper.load("Ship", "1273757730");
+//
+//        System.out.println("-------------");
+//        System.out.println(loadedShip.getName());
+//        System.out.println(loadedUser.getId());
+//        System.out.println(loadedUser.getName());
+//        System.out.println(loadedUser.getSurName());
 
-
-
+        dataMapper.remove("User", "152954623");
     }
 }
