@@ -1,4 +1,5 @@
 import java.util.List;
+import java.util.concurrent.Semaphore;
 
 /**
  * Created with IntelliJ IDEA.
@@ -10,6 +11,7 @@ import java.util.List;
 public class TrainStation {
     private String name;
     private List<Path> paths;
+    public final static Semaphore availblePaths = new Semaphore(10);
 
     public TrainStation(String name) {
         this.name = name;
@@ -49,4 +51,15 @@ public class TrainStation {
         }
         return result;
     }
+public void unload(Train train) {
+    try {
+        availblePaths.acquire();
+        System.out.println(" Train " + Thread.currentThread().getName() + " is unloading on " + availblePaths.availablePermits() );
+        train.unload();
+        availblePaths.release();
+    } catch (InterruptedException e) {
+        e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+    }
+
+}
 }

@@ -12,7 +12,8 @@ public class Main {
 
 
         try {
-            file = FileReadWrite.readFile("d:\\Google Диск\\Java\\JavaEdu\\HomeWork\\ThreadsTrain\\src\\Conf");
+           // file = FileReadWrite.readFile("d:\\Google Диск\\Java\\JavaEdu\\HomeWork\\ThreadsTrain\\src\\Conf");
+            file = FileReadWrite.readFile("/home/loco/JavaEdu/HomeWork/ThreadsTrain/src/Conf");
         } catch (IOException e) {
             e.printStackTrace();
         }

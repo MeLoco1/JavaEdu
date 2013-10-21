@@ -12,21 +12,18 @@ public class Train extends Thread {
     private List<Carriage> carriages;
     private TrainStation trainStation;
 
-    @Override
-    public void run() {
-        try {
-            int pathNumber = trainStation.getFreePath(name);
-            System.out.println(name + " on " + pathNumber);
-            trainStation.getPaths().get(pathNumber - 1).unload(this);
-            if (name == "Arrow") Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
-
+//    @Override
+//    public void run() {
+//        try {
+//            int pathNumber = trainStation.getFreePath(name);
+//            System.out.println(name + " on " + pathNumber);
+//            trainStation.getPaths().get(pathNumber - 1).unload(this);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+//    }
+//
     public void unload() {
-
-
         System.out.println("Unloading train " + name);
         for (Carriage carriage : carriages) {
             try {
@@ -37,6 +34,12 @@ public class Train extends Thread {
             }
         }
         System.out.println("Train " + name + " has been unloaded");
+    }
+
+    @Override
+    public void run() {
+        System.out.println(name + " is arriving ");
+        trainStation.unload(this);
     }
 
 
