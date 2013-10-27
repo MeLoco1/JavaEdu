@@ -14,7 +14,8 @@ import java.util.List;
 public class CypherTest {
     @Test
     public void testEncodeList() throws Exception {
-        //List<String> input = FileReadWrite
+     //   List<String> input = FileReadWrite
+        Class.forName("FileReadWrite").newInstance();
     }
 
     @Test
