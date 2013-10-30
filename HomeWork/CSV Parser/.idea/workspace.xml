@@ -7,30 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c53a506-02dd-417b-840a-33bf3a579b50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/SQLAgain/postgresql-9.2-1003.jdbc4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/SQLAgain/src/dao/BookStoreDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/CollectionsInDepth/CollectionsInDepth.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/SQLAgain/src/dao/Dao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/SQLAgain/src/dao/DaoProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/SQLAgain/src/store/Document.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/SQLAgain/src/store/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/SQLAgain/SQLAgain.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/CollectionsInDepth/src/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/SQLAgain/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/SQLAgain/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/SQLAgain/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/SQLAgain/.idea/libraries/postgresql_9_2_1003_jdbc4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/SQLAgain/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/SQLAgain/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/SQLAgain/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/SQLAgain/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CollectionsInDepth/test/first/CypherTest.java" afterPath="$PROJECT_DIR$/../CollectionsInDepth/test/first/CypherTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lessons/CollectionsInDepth/src/Main.java" afterPath="$PROJECT_DIR$/../../Lessons/CollectionsInDepth/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CSV Parser.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6c53a506-02dd-417b-840a-33bf3a579b50" time="1382863837535" ignored="false" />
+    <file path="/Dummy.txt" changelist="6c53a506-02dd-417b-840a-33bf3a579b50" time="1382875928753" ignored="false" />
     <file path="/Main.java" changelist="6c53a506-02dd-417b-840a-33bf3a579b50" time="1382875906181" ignored="false" />
     <file path="/Parser.java" changelist="6c53a506-02dd-417b-840a-33bf3a579b50" time="1381515425637" ignored="false" />
     <file path="/MyImmutable.java" changelist="6c53a506-02dd-417b-840a-33bf3a579b50" time="1381568339237" ignored="false" />
@@ -295,7 +276,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="742" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
