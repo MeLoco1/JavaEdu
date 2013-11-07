@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="096ac05f-97e8-452a-9407-e8857efd42c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/Patterns/src/AbsFactoryExample/AsterixFormatter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/Patterns/src/AbsFactoryExample/Factory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CollectionsInDepth/src/five/Five.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/Patterns/src/AbsFactoryExample/Formatable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/Patterns/src/AbsFactoryExample/GridFormatter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/Patterns/src/AbsFactoryExample/Lowercase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/Patterns/src/AbsFactoryExample/Options.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/Patterns/src/AbsFactoryExample/Registrable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/Patterns/src/AbsFactoryExample/Server.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CollectionsInDepth/test/five/TestFive.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/Patterns/src/AbsFactoryExample/Uppercase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Fishing.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1383852296385" ignored="false" />
+    <file path="/Dummy.txt" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1383853582133" ignored="false" />
     <file path="/GUI.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1380661548955" ignored="false" />
     <file path="$PROJECT_DIR$/../SerializationCarfactory/src/com/loco/GUI.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1379966751941" ignored="false" />
     <file path="/User.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1381062824206" ignored="false" />
