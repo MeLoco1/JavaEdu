@@ -1,11 +1,15 @@
+package Data;
+
+import Data.Mapable;
+
 /**
  * Created with IntelliJ IDEA.
- * User: Loco
+ * Data.User: Loco
  * Date: 06.10.13
  * Time: 16:27
  * To change this template use File | Settings | File Templates.
  */
-public class Ship implements Mapable{
+public class Ship implements Mapable {
     private String name;
 
     public Ship(String name) {
@@ -41,3 +45,6 @@ public class Ship implements Mapable{
         return hashCode();
     }
 }
+
+
+

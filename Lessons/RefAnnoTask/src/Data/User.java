@@ -1,13 +1,13 @@
-import java.util.Random;
+package Data;
 
 /**
  * Created with IntelliJ IDEA.
- * User: Loco
+ * Data.User: Loco
  * Date: 03.10.13
  * Time: 22:27
  * To change this template use File | Settings | File Templates.
  */
-public class User implements Mapable{
+public class User implements Mapable {
     private long id;
 
     private String name;

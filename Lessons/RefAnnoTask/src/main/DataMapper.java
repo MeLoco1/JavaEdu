@@ -1,11 +1,14 @@
+package main;
+
+import Data.Mapable;
+
 import java.io.*;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
- * User: Loco
+ * Data.User: Loco
  * Date: 03.10.13
  * Time: 23:08
  * To change this template use File | Settings | File Templates.

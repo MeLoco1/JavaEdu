@@ -2,26 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="096ac05f-97e8-452a-9407-e8857efd42c0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/dao/Dao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/dao/DaoProperties.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Data/Ship.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/.idea/libraries/postgresql_9_2_1003_jdbc4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/out/production/RefAnnoTask/Car.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/out/production/RefAnnoTask/Mapable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/out/production/RefAnnoTask/Saveable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/out/production/RefAnnoTask/Ship.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/out/production/RefAnnoTask/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Ship.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Car.java" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Data/Car.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Mapable.java" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Data/Mapable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Saveable.java" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Data/Saveable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/User.java" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Data/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/out/production/RefAnnoTask/DataMapper.class" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/out/production/RefAnnoTask/DataMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/out/production/RefAnnoTask/Main.class" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/out/production/RefAnnoTask/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/DataMapper.java" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/DataMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Main.java" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/RefAnnoTask.iml" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/RefAnnoTask.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Fishing.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1383853582133" ignored="false" />
+    <file path="/Dummy.txt" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1383947591576" ignored="false" />
     <file path="/GUI.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1380661548955" ignored="false" />
     <file path="$PROJECT_DIR$/../SerializationCarfactory/src/com/loco/GUI.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1379966751941" ignored="false" />
     <file path="/User.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1381062824206" ignored="false" />
-    <file path="/Main.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1381177588472" ignored="false" />
+    <file path="/Main.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1383948453430" ignored="false" />
     <file path="/FileReadWrite.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1379969308840" ignored="false" />
     <file path="/WorkWithFile.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1380659984678" ignored="false" />
     <file path="/Fishing.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1380661708446" ignored="false" />
     <file path="/BaseClass.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1381062118818" ignored="false" />
     <file path="/Workable.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1380831133996" ignored="false" />
     <file path="/Student.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1380828744245" ignored="false" />
-    <file path="/Car.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1381062920472" ignored="false" />
+    <file path="/Car.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1383948059120" ignored="false" />
     <file path="/Mapable.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1381062489468" ignored="false" />
     <file path="/DataMapper.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1381179502965" ignored="false" />
     <file path="/Simpleclass.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1380831607396" ignored="false" />
-    <file path="/fragment.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1380832140298" ignored="false" />
+    <file path="/fragment.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1383944380877" ignored="false" />
     <file path="/Saveable.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1381053390953" ignored="false" />
     <file path="/Ship.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1381066113235" ignored="false" />
     <file path="/Server.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1383851374970" ignored="false" />
@@ -33,6 +55,8 @@
     <file path="/Uppercase.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1383850500928" ignored="false" />
     <file path="/Lowercase.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1383850541973" ignored="false" />
     <file path="/Options.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1383852422781" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Ship.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1383944383844" ignored="false" />
+    <file path="/Dao.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1383948382760" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -348,7 +372,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1370" height="744" extended-state="7" />
+    <frame x="-2" y="0" width="1370" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
