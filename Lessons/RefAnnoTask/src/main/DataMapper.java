@@ -74,33 +74,30 @@ public class DataMapper {
         }
     }
 
-    public Object load(String objectType, String id) {
+    public Object load(String objectType, String id) throws IOException {
         System.out.println("Loading class " + objectType);
         Object result = null;
 
-        if (!isFolderExist(objectType)) {
+        if (!isFolderExist(objectType)) { //TODO: throw user exception
             System.out.println("There are no saved objects of " + objectType);
             return null;
         }
-        Class classToLoad = null;
 
-        ArrayList<String[]> fieldValues = null;
+
+        ArrayList<String[]> fieldValues = null; //TODO: change value name
 
         try {
-            fieldValues = getClassFromFile(objectType, id);
+            fieldValues = loadClassData(objectType, id);
+            for (String[] line : fieldValues) {
+                System.out.println(line[0] + "=" + line[1]);
+            }
         } catch (IOException e) {
             e.printStackTrace();
-        }
-
-        for (String[] line : fieldValues) {
-            System.out.println(line[0] + "=" + line[1]);
-        }
-
-        if (fieldValues == null) {
             System.out.println("No object with id " + id);
             return null;
         }
 
+        Class classToLoad = null;
         try {
             classToLoad = Class.forName(objectType);
             result = classToLoad.newInstance();
@@ -113,16 +110,17 @@ public class DataMapper {
             e.printStackTrace();
         }
 
-        try {
-            Field idField = classToLoad.getField(id);
-            idField.set(result, Long.parseLong(id));
-
-        } catch (NoSuchFieldException e) {
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        }
+        setIdValue(id, result, classToLoad);
 
 
+        setFields(result, fieldValues, classToLoad);
+
+        System.out.println("Object loaded");
+
+        return result;
+    }
+
+    private void setFields(Object result, ArrayList<String[]> fieldValues, Class classToLoad) {
         for (int i = 0; i < fieldValues.size(); i++) {
             String[] lines = fieldValues.get(i);
             try {
@@ -133,9 +131,18 @@ public class DataMapper {
                 e.printStackTrace();
             }
         }
-        System.out.println("Object loaded");
+    }
 
-        return result;
+    private void setIdValue(String id, Object result, Class classToLoad) {
+        try {
+            Field idField = classToLoad.getField(id);
+            idField.set(result, Long.parseLong(id));
+
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
     }
 
     private boolean isFolderExist(String name) {
@@ -147,7 +154,14 @@ public class DataMapper {
         return false;
     }
 
-    private ArrayList<String[]> getClassFromFile(String objectType, String id) throws IOException {
+    /**
+     *
+     * @param objectType
+     * @param id
+     * @return
+     * @throws IOException
+     */
+    private ArrayList<String[]> loadClassData(String objectType, String id) throws IOException {
         ArrayList<String[]> result = new ArrayList<String[]>();
 
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(path + "\\" + objectType + "\\data"))) {
@@ -176,6 +190,12 @@ public class DataMapper {
         return result;
     }
 
+    /**
+     *
+     * @param field
+     * @param value
+     * @param object
+     */
     private void setField(Field field, String value, Object object) {
         System.out.println("Set field " + field.getName() + " = " + value);
         try {

@@ -8,12 +8,12 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args) {
-        List<String> file = new ArrayList<String>();
-        Random random = new Random();
-        for (int i = 0; i < 100000; i++) {
-            file.add(random.nextInt() + " ");
-        }
-        FileReadWrite.writeFile("/home/loco/JavaEdu/HomeWork/CollectionsInDepth/file_small", file);
+//        List<String> file = new ArrayList<String>();
+//        Random random = new Random();
+//        for (int i = 0; i < 100000; i++) {
+//            file.add(random.nextInt() + " ");
+//        }
+       // FileReadWrite.writeFile("/home/loco/JavaEdu/HomeWork/CollectionsInDepth/file_small", file);
 
         /**
          * 1.  Написать программу которая будет считывать данные из файла в строковом виде,

@@ -9,5 +9,4 @@ package Data;
  */
 public interface Mapable {
     long getId();
-
 }
