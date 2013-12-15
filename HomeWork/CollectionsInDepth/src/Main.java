@@ -1,10 +1,3 @@
-import first.Cypher;
-import myio.FileReadWrite;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -15,6 +8,11 @@ public class Main {
 //        }
        // FileReadWrite.writeFile("/home/loco/JavaEdu/HomeWork/CollectionsInDepth/file_small", file);
 
+        Object obh = new Object();
+        Object obh1 = new Object();
+        System.out.println(obh.hashCode());
+        System.out.println(obh.hashCode());
+        System.out.println(obh1.hashCode());
         /**
          * 1.  Написать программу которая будет считывать данные из файла в строковом виде,
          * шифровать их (например добавляя к каждому char +1 но лучше похитрее)

@@ -10,7 +10,7 @@ public class Main {
          * При изменении одного из них состояние другого не меняется.
          *
          * Контракт для клонирования:
-         * 1) x == x.clone();
+         * 1) x != x.clone();
          * 2) x.equals(x.clone());  --> true
          * 3) x.getClass == x.clone().getClass();
          *
@@ -38,6 +38,7 @@ public class Main {
 
         //User original = new User("Paul", 30, new Date());
         SmilyUser original = new SmilyUser("Paul", 30, new Date(), new Date());
+        Object obf = new Object();
 
 
         Tablet[] tablets = new Tablet[2];

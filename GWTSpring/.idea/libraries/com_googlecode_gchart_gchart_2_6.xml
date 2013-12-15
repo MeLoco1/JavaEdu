@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.googlecode.gchart:gchart:2.6" type="repository">
+    <properties maven-id="com.googlecode.gchart:gchart:2.6" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/gchart-2.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

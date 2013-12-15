@@ -2,33 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="096ac05f-97e8-452a-9407-e8857efd42c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/dao/Dao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/dao/DaoProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Data/Ship.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/.idea/libraries/postgresql_9_2_1003_jdbc4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/out/production/RefAnnoTask/Car.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/out/production/RefAnnoTask/Mapable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/out/production/RefAnnoTask/Saveable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/out/production/RefAnnoTask/Ship.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/out/production/RefAnnoTask/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Ship.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Car.java" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Data/Car.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Mapable.java" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Data/Mapable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Saveable.java" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Data/Saveable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/User.java" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Data/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/out/production/RefAnnoTask/DataMapper.class" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/out/production/RefAnnoTask/DataMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/out/production/RefAnnoTask/Main.class" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/out/production/RefAnnoTask/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/DataMapper.java" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/DataMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Main.java" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/RefAnnoTask.iml" afterPath="$PROJECT_DIR$/../../Lessons/RefAnnoTask/RefAnnoTask.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSFDemo/lib/javax.faces-2.2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSFDemo/lib/jstl-1.1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThreadsVideoLesson/src/thrd/Account.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThreadsVideoLesson/src/call/Call.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThreadsVideoLesson/src/call/CallTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThreadsVideoLesson/src/thrd/InsufficientFundsException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThreadsVideoLesson/src/thrd/Interrupt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSFDemo/JSFDemo.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSFDemo/.idea/artifacts/JSFDemo_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSFDemo/.idea/artifacts/JSFDemo_war_exploded2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF/.idea/libraries/Maven__javax_faces_javax_faces_api_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF/.idea/libraries/Maven__javax_javaee_api_7_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThreadsVideoLesson/src/thrd/Operations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThreadsVideoLesson/ThreadsVideoLesson.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TomCatWebbApp/TomCatWebbApp.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TomCatWebbApp/.idea/artifacts/TomCatWebbApp_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSFDemo/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../GWTSpring/.idea/libraries/com_google_gwt_gwt_user_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../GWTSpring/.idea/libraries/com_googlecode_gchart_gchart_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSFDemo/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThreadsVideoLesson/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TomCatWebbApp/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSFDemo/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThreadsVideoLesson/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TomCatWebbApp/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSFDemo/web/hello.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSFDemo/web/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../GWTSpring/.idea/libraries/javax_jms_javax_jms_api_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSFDemo/.idea/libraries/jsf_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSFDemo/.idea/libraries/jsf_2_2_1__2_.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSFDemo/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThreadsVideoLesson/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TomCatWebbApp/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSFDemo/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThreadsVideoLesson/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TomCatWebbApp/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../GWTSpring/.idea/libraries/mysql_mysql_connector_java_5_1_26.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSFDemo/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThreadsVideoLesson/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TomCatWebbApp/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSFDemo/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThreadsVideoLesson/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TomCatWebbApp/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSFDemo/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThreadsVideoLesson/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TomCatWebbApp/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSFDemo/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThreadsVideoLesson/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TomCatWebbApp/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSFDemo/web/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TomCatWebbApp/web/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSFDemo/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThreadsVideoLesson/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TomCatWebbApp/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThreadsTrain/out/production/ThreadsTrain/Main.class" afterPath="$PROJECT_DIR$/../ThreadsTrain/out/production/ThreadsTrain/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CollectionsInDepth/src/Main.java" afterPath="$PROJECT_DIR$/../CollectionsInDepth/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThreadsTrain/src/Main.java" afterPath="$PROJECT_DIR$/../ThreadsTrain/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lessons/Cloning/src/Main.java" afterPath="$PROJECT_DIR$/../../Lessons/Cloning/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CollectionsInDepth/test/eight/TestEight.java" afterPath="$PROJECT_DIR$/../CollectionsInDepth/test/eight/TestEight.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThreadsTrain/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ThreadsTrain/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lessons/Serialization/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Lessons/Serialization/.idea/workspace.xml" />
     </list>
     <ignored path="Fishing.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1383947591576" ignored="false" />
+    <file path="/Dummy.txt" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1386789303733" ignored="false" />
     <file path="/GUI.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1380661548955" ignored="false" />
     <file path="$PROJECT_DIR$/../SerializationCarfactory/src/com/loco/GUI.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1379966751941" ignored="false" />
     <file path="/User.java" changelist="096ac05f-97e8-452a-9407-e8857efd42c0" time="1381062824206" ignored="false" />
@@ -71,6 +112,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -105,7 +147,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -118,7 +159,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="8" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,7 +168,7 @@
       <file leaf-file-name="GUI.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="0.2944251">
+            <state line="27" column="0" selection-start="882" selection-end="882" vertical-scroll-proportion="0.331565">
               <folding />
             </state>
           </provider>
@@ -189,9 +230,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="width" value="1370" />
-    <option name="height" value="744" />
+    <option name="width" value="1366" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -222,7 +262,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -281,6 +320,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,9 +339,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
@@ -372,31 +412,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1370" height="744" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295562" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18106061" sideWeight="0.67044383" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295562" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18106061" sideWeight="0.6716667" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833335" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295562" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -561,14 +601,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="0.2944251">
+        <state line="27" column="0" selection-start="882" selection-end="882" vertical-scroll-proportion="0.331565">
           <folding />
         </state>
       </provider>
