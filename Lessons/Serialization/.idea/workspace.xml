@@ -2,66 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdbd58f2-a5d8-4298-9e2d-f1d5b5f7b246" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSFDemo/lib/javax.faces-2.2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSFDemo/lib/jstl-1.1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ThreadsVideoLesson/src/thrd/Account.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ThreadsVideoLesson/src/call/Call.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ThreadsVideoLesson/src/call/CallTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ThreadsVideoLesson/src/thrd/InsufficientFundsException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ThreadsVideoLesson/src/thrd/Interrupt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSFDemo/JSFDemo.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSFDemo/.idea/artifacts/JSFDemo_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSFDemo/.idea/artifacts/JSFDemo_war_exploded2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSF/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSF/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSF/.idea/libraries/Maven__javax_faces_javax_faces_api_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSF/.idea/libraries/Maven__javax_javaee_api_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ThreadsVideoLesson/src/thrd/Operations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ThreadsVideoLesson/ThreadsVideoLesson.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/TomCatWebbApp/TomCatWebbApp.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/TomCatWebbApp/.idea/artifacts/TomCatWebbApp_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSF/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSFDemo/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSFDemo/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ThreadsVideoLesson/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/TomCatWebbApp/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSFDemo/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ThreadsVideoLesson/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/TomCatWebbApp/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSFDemo/web/hello.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSFDemo/web/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSFDemo/.idea/libraries/jsf_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSFDemo/.idea/libraries/jsf_2_2_1__2_.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSFDemo/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ThreadsVideoLesson/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/TomCatWebbApp/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSFDemo/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ThreadsVideoLesson/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/TomCatWebbApp/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSFDemo/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ThreadsVideoLesson/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/TomCatWebbApp/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSFDemo/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ThreadsVideoLesson/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/TomCatWebbApp/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSFDemo/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ThreadsVideoLesson/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/TomCatWebbApp/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSFDemo/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ThreadsVideoLesson/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/TomCatWebbApp/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSFDemo/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/TomCatWebbApp/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/JSFDemo/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ThreadsVideoLesson/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/TomCatWebbApp/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/CollectionsInDepth/src/Main.java" afterPath="$PROJECT_DIR$/../../HomeWork/CollectionsInDepth/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Cloning/src/Main.java" afterPath="$PROJECT_DIR$/../Cloning/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/CollectionsInDepth/test/eight/TestEight.java" afterPath="$PROJECT_DIR$/../../HomeWork/CollectionsInDepth/test/eight/TestEight.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Immutable and Overloading/Immutable/src/Overloading/AbsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../GWTSpring/src/com/mySampleApplication/client/bean/UserTransfer.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../GWTSpring/hibernate.cfg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../GWTSpring/.idea/libraries/required.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Immutable and Overloading/Immutable/out/production/Immutable/immutable/Main.class" afterPath="$PROJECT_DIR$/../Immutable and Overloading/Immutable/out/production/Immutable/immutable/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Immutable and Overloading/Immutable/out/production/Immutable/Overloading/Pony.class" afterPath="$PROJECT_DIR$/../Immutable and Overloading/Immutable/out/production/Immutable/Overloading/Pony.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Annotations/Annotations.iml" afterPath="$PROJECT_DIR$/../Annotations/Annotations.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Immutable and Overloading/Immutable/src/Overloading/LittlePony.java" afterPath="$PROJECT_DIR$/../Immutable and Overloading/Immutable/src/Overloading/LittlePony.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Immutable and Overloading/Immutable/src/immutable/Main.java" afterPath="$PROJECT_DIR$/../Immutable and Overloading/Immutable/src/immutable/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Concurrency/src/tiresrv/SemaforTry.java" afterPath="$PROJECT_DIR$/../Concurrency/src/tiresrv/SemaforTry.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Annotations/.idea/ant.xml" afterPath="$PROJECT_DIR$/../Annotations/.idea/ant.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Annotations/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Annotations/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../HomeWork/JSFDemo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../HomeWork/JSFDemo/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Annotations/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Annotations/.idea/workspace.xml" />
     </list>
     <ignored path="Serialization.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="cdbd58f2-a5d8-4298-9e2d-f1d5b5f7b246" time="1386622168693" ignored="false" />
+    <file path="/Dummy.txt" changelist="cdbd58f2-a5d8-4298-9e2d-f1d5b5f7b246" time="1388847573538" ignored="false" />
     <file path="/User.java" changelist="cdbd58f2-a5d8-4298-9e2d-f1d5b5f7b246" time="1380831080684" ignored="false" />
     <file path="/fragment.java" changelist="cdbd58f2-a5d8-4298-9e2d-f1d5b5f7b246" time="1379368803220" ignored="false" />
     <file path="/Main.java" changelist="cdbd58f2-a5d8-4298-9e2d-f1d5b5f7b246" time="1380831935397" ignored="false" />
@@ -101,7 +59,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -136,6 +93,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -240,6 +198,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -275,7 +234,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,9 +251,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Application.SystemIn">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
@@ -397,7 +355,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1370" height="744" extended-state="6" />
+    <frame x="-2" y="0" width="1370" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />

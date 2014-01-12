@@ -14,7 +14,7 @@ import java.util.Queue;
 public class LittlePony extends Pony {
 
     /**
-     * @Override private String igogo(int a) {           // Нельзя мужать модификатор
+     * @Override private String igogo(int a) {           // Нельзя cужать модификатор
      * return "little pony";
      * }
      */

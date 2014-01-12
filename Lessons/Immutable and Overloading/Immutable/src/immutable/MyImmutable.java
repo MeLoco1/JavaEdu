@@ -33,6 +33,11 @@ public final class MyImmutable {
         return age;
     }
 
+    @Override
+    public int hashCode() {
+        return super.hashCode();    //To change body of overridden methods use File | Settings | File Templates.
+    }
+
     public String getName() {
         return name;
     }
